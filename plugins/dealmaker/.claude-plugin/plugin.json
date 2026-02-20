@@ -1,0 +1,10 @@
+{
+  "name": "dealmaker",
+  "description": "Negotiation and interpersonal skills: tactical negotiation, influence architecture, rapport building, feedback coaching, and difficult conversations",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Eleazar",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": ["negotiation", "influence", "rapport", "feedback", "communication", "interpersonal"]
+}

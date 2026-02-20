@@ -1,0 +1,7 @@
+# Local settings (user-specific, not part of the marketplace)
+.claude/settings.local.json
+.gemini/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+{
+  "name": "meta",
+  "description": "Process and platform enforcement: session bootstrap, skill invocation discipline, TDD for skill authoring, prompt optimization, mental models, and meta-learning",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Eleazar",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": ["skills", "process", "discipline", "bootstrap", "meta-learning", "prompt-optimization"]
+}

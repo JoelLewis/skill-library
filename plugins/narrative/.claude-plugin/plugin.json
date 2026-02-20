@@ -1,0 +1,10 @@
+{
+  "name": "narrative",
+  "description": "Fiction and storytelling craft: plot architecture, character vulnerability design, world-building logic systems, and dialogue technique",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Eleazar",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": ["fiction", "storytelling", "writing", "characters", "world-building", "dialogue"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "rhetorician",
+  "description": "Non-fiction writing and persuasion: structural precision, copy editing, emotional resonance, memo stress-testing, and evidence-based advertising",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Eleazar",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": ["writing", "editing", "persuasion", "copywriting", "non-fiction", "rhetoric"]
+}

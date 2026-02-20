@@ -1,0 +1,10 @@
+{
+  "name": "workflow",
+  "description": "Strategic discovery-to-delivery chain: problem framing, stakeholder mapping, market analysis, competitive teardown, persona building, business cases, PRDs, pitch decks, and validation gates",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Eleazar",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": ["strategy", "planning", "business-case", "prd", "pitch-deck", "stakeholder", "competitive-analysis"]
+}

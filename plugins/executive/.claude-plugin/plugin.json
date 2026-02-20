@@ -1,0 +1,10 @@
+{
+  "name": "executive",
+  "description": "Leadership and organizational execution: strategic clarity, devil's advocate stress-testing, operational excellence, platform strategy, team building, hiring, and decision frameworks",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Eleazar",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": ["leadership", "strategy", "decision-making", "team-building", "hiring", "operations"]
+}

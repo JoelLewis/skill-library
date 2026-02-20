@@ -1,0 +1,83 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-library",
+  "description": "41 agent skills across 6 domains: process enforcement, strategic workflow, executive leadership, fiction craft, non-fiction writing, and negotiation. Extracted from 109 books and grounded in source attribution.",
+  "owner": {
+    "name": "Joel Eleazar",
+    "email": "joel@eleazar.dev"
+  },
+  "plugins": [
+    {
+      "name": "meta",
+      "description": "Process and platform enforcement: session bootstrap, skill invocation discipline, TDD for skill authoring, prompt optimization, mental models, and meta-learning",
+      "version": "1.0.0",
+      "source": "./plugins/meta",
+      "author": {
+        "name": "Joel Eleazar",
+        "email": "joel@eleazar.dev"
+      },
+      "category": "productivity",
+      "keywords": ["skills", "process", "discipline", "bootstrap", "meta-learning", "prompt-optimization"]
+    },
+    {
+      "name": "workflow",
+      "description": "Strategic discovery-to-delivery chain: problem framing, stakeholder mapping, market analysis, competitive teardown, persona building, business cases, PRDs, pitch decks, and validation gates",
+      "version": "1.0.0",
+      "source": "./plugins/workflow",
+      "author": {
+        "name": "Joel Eleazar",
+        "email": "joel@eleazar.dev"
+      },
+      "category": "productivity",
+      "keywords": ["strategy", "planning", "business-case", "prd", "pitch-deck", "stakeholder", "competitive-analysis"]
+    },
+    {
+      "name": "executive",
+      "description": "Leadership and organizational execution: strategic clarity, devil's advocate stress-testing, operational excellence, platform strategy, team building, hiring, and decision frameworks",
+      "version": "1.0.0",
+      "source": "./plugins/executive",
+      "author": {
+        "name": "Joel Eleazar",
+        "email": "joel@eleazar.dev"
+      },
+      "category": "productivity",
+      "keywords": ["leadership", "strategy", "decision-making", "team-building", "hiring", "operations"]
+    },
+    {
+      "name": "narrative",
+      "description": "Fiction and storytelling craft: plot architecture, character vulnerability design, world-building logic systems, and dialogue technique",
+      "version": "1.0.0",
+      "source": "./plugins/narrative",
+      "author": {
+        "name": "Joel Eleazar",
+        "email": "joel@eleazar.dev"
+      },
+      "category": "productivity",
+      "keywords": ["fiction", "storytelling", "writing", "characters", "world-building", "dialogue"]
+    },
+    {
+      "name": "rhetorician",
+      "description": "Non-fiction writing and persuasion: structural precision, copy editing, emotional resonance, memo stress-testing, and evidence-based advertising",
+      "version": "1.0.0",
+      "source": "./plugins/rhetorician",
+      "author": {
+        "name": "Joel Eleazar",
+        "email": "joel@eleazar.dev"
+      },
+      "category": "productivity",
+      "keywords": ["writing", "editing", "persuasion", "copywriting", "non-fiction", "rhetoric"]
+    },
+    {
+      "name": "dealmaker",
+      "description": "Negotiation and interpersonal skills: tactical negotiation, influence architecture, rapport building, feedback coaching, and difficult conversations",
+      "version": "1.0.0",
+      "source": "./plugins/dealmaker",
+      "author": {
+        "name": "Joel Eleazar",
+        "email": "joel@eleazar.dev"
+      },
+      "category": "productivity",
+      "keywords": ["negotiation", "influence", "rapport", "feedback", "communication", "interpersonal"]
+    }
+  ]
+}
