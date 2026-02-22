@@ -100,3 +100,9 @@ Claude Code reads `name` and `description` from frontmatter. The remaining field
 - Iron laws are backtick-wrapped ALL-CAPS sentences
 - Source citations inline: `(Source: Author, *Title*)`
 - Plugin metadata: `.claude-plugin/plugin.json` per family, `.claude-plugin/marketplace.json` at root
+
+## Linear
+
+- **Project**: Dev Tooling (team: Joellewis)
+- Reference issue IDs (e.g., JOE-42) in commit messages and PR titles
+- Issues discovered during implementation go to Triage with `agent-drafted` label
