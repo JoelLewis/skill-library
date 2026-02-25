@@ -16,6 +16,7 @@ sources_web: ["First Round Review: Design Sprint Discovery"]
 Problem-framing is the "discovery gate" that ensures you are solving the right problem before investing resources in solutions. It uses human-centered design principles and strategic cascades to move from symptoms to root causes.
 
 ## Iron Law
+
 `NO ANALYSIS WITHOUT APPROVED PROBLEM FRAMING FIRST`
 Premature analysis leads to solving the wrong problem, wasting resources on elegant solutions to low-value or non-existent issues.
 

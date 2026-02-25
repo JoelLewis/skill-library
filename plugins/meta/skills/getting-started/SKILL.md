@@ -3,7 +3,7 @@ name: getting-started
 type: meta
 family: meta
 rigor: full
-description: "Use when bootstrapping a new session, starting a project, or uncertain how to approach a task."
+description: "Use at the start of any session or when a task has no clear skill assignment—routes the request to the correct skill family and establishes workflow chain context."
 keywords: "bootstrap, session-setup, routing, skill-discovery, task-initialization, workflow-context"
 compatibility: "Claude Code and compatible agent products"
 requires: []
@@ -16,6 +16,7 @@ sources_web: []
 This skill bootstraps the session, identifying the user's domain, routing to the correct skill family, and establishing the workflow context. It prevents "unstructured thinking" by ensuring every task is approached with the appropriate skill framework.
 
 ## Iron Law
+
 `NO RESPONSE TO A TASK WITHOUT CHECKING FOR APPLICABLE SKILLS FIRST`
 Jumping directly into a task without identifying the relevant skill framework results in generic, unverified, and low-value output.
 
@@ -52,7 +53,7 @@ digraph getting_started_flow {
 ## Core Process
 
 ### Step 1: Identify Domain
-Ask yourself: Is this request strategic, analytical, narrative, rhetorical, or interpersonal? (Source: GEMINI.md, §2)
+Ask yourself: Is this request strategic, analytical, narrative, rhetorical, or interpersonal? (Source: system design)
 
 ### Step 2: Check Skill Taxonomy
 Consult the 6 families and 41 skills below. Use the 1% rule: if there is even a 1% chance a skill applies, you MUST mention it.
@@ -113,10 +114,10 @@ Consult the 6 families and 41 skills below. Use the 1% rule: if there is even a 
 - `difficult-conversations` — High-stakes dialogue
 
 ### Step 3: Establish Workflow Chain
-If the task is strategic or analytical, determine which phase of the workflow chain (Discovery, Analysis, Deliverable, Review) applies. (Source: GEMINI.md, §4)
+If the task is strategic or analytical, determine which phase of the workflow chain (Discovery, Analysis, Deliverable, Review) applies. (Source: system design)
 
 ### Step 4: Invoke Skill(s)
-Confirm the relevant skills with the user and request permission to proceed using those frameworks. (Source: GEMINI.md architecture)
+Confirm the relevant skills with the user and request permission to proceed using those frameworks. (Source: system design)
 
 ## Cross-Skill Invocations
 REQUIRED SUB-SKILL: using-skills — to enforce invocation discipline.
@@ -144,6 +145,6 @@ These thoughts mean STOP — you are about to shortcut:
 - [ ] Have I confirmed there are no hidden prerequisites (e.g., stakeholder mapping before PRD)?
 
 ## Sources
-- GEMINI.md, §2 — Skill Family Directory.
-- GEMINI.md, §4 — Workflow Chain Architecture.
-- GEMINI.md, §6 — Iron Laws.
+- System design — Skill Family Directory.
+- System design — Workflow Chain Architecture.
+- System design — Iron Laws.

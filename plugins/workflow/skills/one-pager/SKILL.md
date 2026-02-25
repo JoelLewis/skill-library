@@ -3,8 +3,8 @@ name: one-pager
 type: workflow
 family: workflow
 rigor: full
-description: "Use when distilling complex strategy or analysis into executive summaries."
-keywords: "executive-summary, distillation, strategy, documentation, communication, summary"
+description: "Use when compressing a complex strategy or analysis into a strictly one-page narrative—enforces Pyramid SCQ structure and Orwell word-budget discipline."
+keywords: "executive-summary, distillation, strategy, documentation, communication, summary, single-page, BLUF, pyramid-principle"
 compatibility: "Claude Code and compatible agent products"
 requires: ["problem-framing"]
 enhances: ["executive-briefing", "memo-stress-tester", "prd-writing"]

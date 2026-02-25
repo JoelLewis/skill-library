@@ -3,7 +3,7 @@ name: non-fiction-precision
 type: domain
 family: rhetorician
 rigor: standard
-description: "Use when structuring non-fiction writing for clarity, logical flow, and comprehension."
+description: "Use when a document's argument buries its conclusion or has logical gaps—applies Minto's Pyramid (Answer First, MECE grouping) and Orwell's concision rules to rebuild structure."
 keywords: "structural-clarity, non-fiction, writing, organization, logic, comprehension"
 compatibility: "Claude Code and compatible agent products"
 requires: []

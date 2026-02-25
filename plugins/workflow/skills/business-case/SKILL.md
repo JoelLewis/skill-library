@@ -16,6 +16,7 @@ sources_web: ["First Round Review: Startup Resource Justification"]
 This skill provides a rigorous framework for building an investment thesis. It forces the identification of explicit assumptions, calculation of ROI, and the simulation of worst-case scenarios to ensure that capital and resources are allocated only to initiatives with a clear path to "Sufficiency."
 
 ## Iron Law
+
 `NO BUSINESS CASE WITHOUT EXPLICIT ASSUMPTIONS AND SENSITIVITY ANALYSIS`
 Uncertainty is inherent in business, but failing to model it is a choice. A business case that assumes a single linear outcome is a fantasy. You must simulate "The Plan Not Going According to Plan."
 

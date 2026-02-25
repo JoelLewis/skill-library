@@ -3,7 +3,7 @@ name: prd-writing
 type: workflow
 family: workflow
 rigor: full
-description: "Use when writing product requirements, specifications, or PR/FAQ documents."
+description: "Use when translating a product vision into engineering requirements—enforces the Working Backwards PR/FAQ method, requiring a customer-facing press release before any technical spec."
 keywords: "product-requirements, PR-FAQ, specifications, feature-definition, documentation, writing"
 compatibility: "Claude Code and compatible agent products"
 requires: ["problem-framing", "buyer-persona"]

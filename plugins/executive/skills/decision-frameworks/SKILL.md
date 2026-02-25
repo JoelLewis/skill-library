@@ -3,7 +3,7 @@ name: decision-frameworks
 type: domain
 family: executive
 rigor: standard
-description: "Use when facing complex decisions under uncertainty, or building decision-making processes."
+description: "Use when choosing between mutually exclusive strategic paths or building a repeatable decision process—constructs Decision Matrices with probability estimates and runs Pre-Mortems."
 keywords: "decision-making, uncertainty, mental-models, frameworks, analysis, probabilistic"
 compatibility: "Claude Code and compatible agent products"
 requires: []

@@ -104,8 +104,8 @@ Use the "Rule of Three" to ensure implementation (get them to agree three times 
 - [ ] Is my final agreement backed by the Rule of Three to ensure execution?
 
 ## Sources
-- Fisher & Ury, Getting to Yes, Ch. 1-5 — [Principled negotiation framework]
-- Chris Voss, Never Split the Difference, Ch. 2-9 — [Tactical empathy and Ackerman model]
-- Deepak Malhotra, Negotiation Genius, Ch. 1-3 — [Investigative negotiation]
-- G. Richard Shell, Bargaining for Advantage, Ch. 1-6 — [6 Foundations and Situational Matrix]
-- Ramit Sethi, I Will Teach You to Be Rich — [Salary scripts and negotiation mindset]
+- Fisher & Ury. *Getting to Yes*, Ch. 1-5 (Principled Negotiation Framework).
+- Voss, Chris. *Never Split the Difference*, Ch. 2-9 (Tactical Empathy and Ackerman Model).
+- Malhotra, Deepak. *Negotiation Genius*, Ch. 1-3 (Investigative Negotiation).
+- Shell, G. Richard. *Bargaining for Advantage*, Ch. 1-6 (6 Foundations and Situational Matrix).
+- Sethi, Ramit. *I Will Teach You to Be Rich* (Salary Scripts and Negotiation Mindset).

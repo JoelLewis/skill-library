@@ -3,7 +3,7 @@ name: rapport-builder
 type: domain
 family: dealmaker
 rigor: standard
-description: "Use when building relationships, establishing trust, or managing interpersonal dynamics in high-stakes environments."
+description: "Use when initiating a relationship or entering a new team—builds Tactical Empathy through mirroring, labeling, and belonging cues before conflict arises."
 keywords: "rapport, trust, tactical empathy, active listening, psychological safety, mirroring, labeling, mutual purpose, connection"
 compatibility: "Claude Code and compatible agent products"
 requires: []
@@ -27,8 +27,8 @@ Connection happens when the amygdala receives a steady pulse of "belonging cues.
 ### 3. Mutual Respect and Mutual Purpose are the Twin Pillars (Source: Grenny, Crucial Conversations)
 Dialogue cannot exist without safety. Safety is built on two conditions: **Mutual Respect** (the belief that you care about their well-being) and **Mutual Purpose** (the belief that you are working toward a common goal).
 
-### 4. Use the 1% Rule of Application (Source: GEMINI.md)
-If there is even a 1% chance that a rapport-building tactic (like a mirror or a label) will clarify a situation, use it. Small signals of connection prevent large-scale defensive withdrawals.
+### 4. Use Storytelling as a Belonging Signal (Source: Coyle, The Culture Code)
+Sharing personal vulnerabilities or stories signals that the environment is safe for others to do the same. Brief, authentic self-disclosure lowers the defensive posture of the counterpart and accelerates connection.
 
 ### 5. Separate the Person from the Problem (Source: Harvard PON)
 Focus on the underlying interests—the *why* behind a position—rather than attacking the individual's stance. This preserves the relationship even when the deal is difficult.

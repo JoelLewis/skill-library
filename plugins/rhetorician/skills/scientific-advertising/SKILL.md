@@ -4,12 +4,12 @@ type: domain
 family: rhetorician
 rigor: standard
 description: "Use when writing advertising copy, marketing materials, or evidence-based persuasive content."
-keywords: "persuasion, evidence-based, advertising, marketing, copywriting, messaging"
+keywords: "persuasion, evidence-based, advertising, marketing, copywriting, messaging, direct-response, conversion, advertising-copy"
 compatibility: "Claude Code and compatible agent products"
 requires: []
 enhances: ["resonance-engine", "copy-editor", "buyer-persona"]
-sources_pdf: ["Scientific Advertising (Hopkins)", "The Personal MBA (Kaufman)"]
-sources_web: ["Ogilvy advertising principles"]
+sources_pdf: ["Scientific Advertising (Hopkins)", "The Personal MBA (Kaufman)", "Ogilvy on Advertising (Ogilvy)"]
+sources_web: []
 ---
 
 ## Overview
@@ -20,7 +20,7 @@ Scientific advertising is the application of the scientific method to the art of
 ### Principle 1: Advertising is Salesmanship (Source: Hopkins, Scientific Advertising)
 The only purpose of advertising is to make sales. Treat every advertisement as a super-salesman. If you wouldn't say it to a prospect face-to-face, don't write it in an ad. Never seek applause; only seek action.
 
-### Principle 2: The "Big Idea" (Source: Web, Ogilvy Principles)
+### Principle 2: The "Big Idea" (Source: Ogilvy, Ogilvy on Advertising)
 Unless your advertising contains a "Big Idea," it will pass like a ship in the night. The Big Idea is the unique, arresting angle that hooks the reader's attention and makes the brand memorable for the long term.
 
 ### Principle 3: Solve a Human Drive (Source: Kaufman, The Personal MBA)
@@ -34,7 +34,7 @@ All marketing should tap into one of the five core human drives:
 ### Principle 4: Specificity is Conviction (Source: Hopkins, Scientific Advertising)
 Generalities like "best quality" are ignored. Specific claims like "softens beards in 78 seconds" or "used by 52 nations" imply evidence and are accepted as truth. The more facts you tell, the more you sell.
 
-### Principle 5: The Consumer is Not a Moron (Source: Web, Ogilvy Principles)
+### Principle 5: The Consumer is Not a Moron (Source: Ogilvy, Ogilvy on Advertising)
 "She is your wife." Never talk down to the reader. Provide intelligent, research-based evidence. Use long copy if the product requires it; people interested in buying will read a volume if it is informative.
 
 ## When to Use This Skill

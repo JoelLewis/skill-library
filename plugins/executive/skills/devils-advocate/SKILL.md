@@ -3,7 +3,7 @@ name: devils-advocate
 type: domain
 family: executive
 rigor: standard
-description: "Use when stress-testing proposals, identifying risks, or validating strategic recommendations."
+description: "Use when a proposal has unanimous support or relies on a single high-impact assumption—constructs the strongest possible counter-argument (Steel Man) and runs a Pre-Mortem."
 keywords: "stress-testing, adversarial, challenge, risk-identification, critique, validation"
 compatibility: "Claude Code and compatible agent products"
 requires: []

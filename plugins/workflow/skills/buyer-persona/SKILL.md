@@ -16,6 +16,7 @@ sources_web: ["Lenny's Newsletter: Persona Methodology"]
 This skill forces the creation of personas grounded in functional objectives (Jobs-to-be-Done) rather than superficial demographics. By focusing on the *Job Performer* and their *Struggling Moments*, it ensures that product and marketing efforts address actual customer needs.
 
 ## Iron Law
+
 `NO PERSONA WITHOUT A VALIDATED JOB-TO-BE-DONE`
 Personas built on demographics alone (e.g., "Millennial Mark") lead to "fluffy" marketing and products that fail to solve real problems. A persona must be anchored to a specific job someone is trying to "hire" a solution for.
 

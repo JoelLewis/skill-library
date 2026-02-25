@@ -3,8 +3,8 @@ name: competitive-analysis
 type: workflow
 family: workflow
 rigor: full
-description: "Use when evaluating competitors, market alternatives, or validating competitive positioning."
-keywords: "competitors, market-positioning, strategy, analysis, alternatives, teardown"
+description: "Use when performing a structured teardown of a specific competitor's activity system, moat, or vulnerability profile—requires at least one named rival to analyze."
+keywords: "competitors, market-positioning, strategy, analysis, alternatives, teardown, activity-system, moat-audit, competitor-teardown"
 compatibility: "Claude Code and compatible agent products"
 requires: ["problem-framing"]
 enhances: ["strategy-clarity", "devils-advocate", "market-context"]
@@ -28,15 +28,15 @@ Unverified claims about being "10x better" or having "no competitors" are the pr
 digraph competitive_analysis_flow {
     "Start" [shape=doublecircle];
     "Step 1: Activity Mapping" [shape=box];
-    "Step 2: Moat Audit" [shape=diamond];
+    "Gate: Moat Audit" [shape=diamond];
     "Step 3: Vulnerability Check" [shape=box];
     "Step 4: Evidence Gate" [shape=diamond];
     "Done" [shape=doublecircle];
 
     "Start" -> "Step 1: Activity Mapping";
-    "Step 1: Activity Mapping" -> "Step 2: Moat Audit";
-    "Step 2: Moat Audit" -> "Step 3: Vulnerability Check" [label="moat verified"];
-    "Step 2: Moat Audit" -> "Step 1: Activity Mapping" [label="unclear value"];
+    "Step 1: Activity Mapping" -> "Gate: Moat Audit";
+    "Gate: Moat Audit" -> "Step 3: Vulnerability Check" [label="moat verified"];
+    "Gate: Moat Audit" -> "Step 1: Activity Mapping" [label="unclear value"];
     "Step 3: Vulnerability Check" -> "Step 4: Evidence Gate";
     "Step 4: Evidence Gate" -> "Done" [label="2+ sources found"];
     "Step 4: Evidence Gate" -> "Step 3: Vulnerability Check" [label="hearsay only"];

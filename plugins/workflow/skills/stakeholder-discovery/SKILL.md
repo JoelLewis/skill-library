@@ -16,6 +16,7 @@ sources_web: ["SVPG: Stakeholder Management vs. Engagement", "Silicon Valley Pro
 Stakeholder-discovery is the process of mapping the "organizational ecosystem" to ensure you have the necessary alignment and safety to proceed. It distinguishes between those who have opinions and those who have "veto power," ensuring that critical relationships are cultivated early.
 
 ## Iron Law
+
 `NO DELIVERABLE WITHOUT A VALIDATED STAKEHOLDER MAP`
 Late-stage "vetoes" are a failure of discovery. Mapping power and interests early is the difference between a smooth launch and an organizational roadblock.
 

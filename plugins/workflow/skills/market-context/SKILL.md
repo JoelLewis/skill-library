@@ -3,8 +3,8 @@ name: market-context
 type: workflow
 family: workflow
 rigor: full
-description: "Use when building strategy, analyzing competitive landscapes, or validating market dynamics and structural forces."
-keywords: "market-research, strategy, competitive-landscape, go-to-market, positioning, dynamics"
+description: "Use when validating market timing, structural forces, or distribution moats before committing strategic resources—focuses on macro context, not individual competitor teardowns."
+keywords: "market-research, strategy, competitive-landscape, go-to-market, positioning, dynamics, timing, structural-forces, distribution-moats, aggregation-theory"
 compatibility: "Claude Code and compatible agent products"
 requires: ["problem-framing"]
 enhances: ["strategy-clarity", "competitive-analysis", "business-case"]

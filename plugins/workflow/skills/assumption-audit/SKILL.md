@@ -3,10 +3,10 @@ name: assumption-audit
 type: workflow
 family: workflow
 rigor: full
-description: "Use when validating key claims, signing off on analysis, or before final recommendations—ensures evidence gates."
+description: "Use as the mandatory evidence gate before signing off on any strategy, PRD, or business case—audits every key claim against documented sources and assigns calibrated probabilities."
 keywords: "validation, evidence, claims, assumptions, testing, gate, verification"
 compatibility: "Claude Code and compatible agent products"
-requires: []
+requires: ["problem-framing"]
 enhances: ["devils-advocate", "decision-frameworks", "strategy-clarity"]
 sources_pdf: ["Thinking in Bets (Duke)", "How to Decide (Duke)", "Antifragile (Taleb)", "Seeking Wisdom (Bevelin)", "Useful Not True (Sivers)"]
 sources_web: ["Farnam Street: Decision-Making", "Farnam Street: Inversion"]
@@ -16,6 +16,7 @@ sources_web: ["Farnam Street: Decision-Making", "Farnam Street: Inversion"]
 Assumption-audit is the "evidence gate" that prevents Resulting (evaluating decisions by outcomes) and Hindsight Bias (feeling something was predictable after it happened). It forces an honest accounting of what is known versus what is guessed.
 
 ## Iron Law
+
 `NO SIGN-OFF WITHOUT VALIDATION EVIDENCE FOR EVERY KEY CLAIM`
 Assertions without evidence are vulnerabilities. Unaudited assumptions create fragile strategies that collapse under the first sign of volatility.
 
@@ -44,7 +45,7 @@ digraph assumption_audit_flow {
 ```
 
 ## When to Use This Skill
-- Before finalized a PRD, strategy memo, or business case.
+- Before finalizing a PRD, strategy memo, or business case.
 - When a recommendation relies on future forecasts or market "certainties."
 - When you find yourself saying "I just have a feeling" or "It's obvious that..."
 - Before any high-stakes decision where the downside of being wrong is significant.

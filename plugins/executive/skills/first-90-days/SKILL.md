@@ -7,7 +7,7 @@ description: "Use when transitioning into a new role, team, or organization—ne
 keywords: "onboarding, new-role, transition, 90-days, leadership, ramp-up"
 compatibility: "Claude Code and compatible agent products"
 requires: []
-enhances: ["rapport-builder", "influence-architect", "team-builder"]
+enhances: ["rapport-builder", "influence-architect", "team-builder", "hiring-talent"]
 sources_pdf: ["The First 90 Days (Watkins)", "Scaling People (Johnson)", "High Output Management (Grove)", "The Making of a Manager (Zhuo)", "Designing Your Life (Burnett)"]
 sources_web: ["First Round Review: New Leader Playbook", "Farnam Street: Second-Order Thinking"]
 ---

@@ -3,7 +3,7 @@ name: stakeholder-review
 type: workflow
 family: workflow
 rigor: full
-description: "Use when gathering structured feedback on deliverables before finalization."
+description: "Use when a deliverable needs structured stakeholder sign-off before finalization—runs the pre-read, feedback-type alignment, and conflict-resolution protocol."
 keywords: "feedback, review, validation, refinement, deliverables, stakeholder-input"
 compatibility: "Claude Code and compatible agent products"
 requires: ["stakeholder-discovery"]

@@ -3,7 +3,7 @@ name: using-skills
 type: meta
 family: meta
 rigor: full
-description: "Use when a task might benefit from skill invocation, or uncertain whether a skill applies—enforces the 1% rule."
+description: "Invoke before responding to any non-trivial task—enforces the 1% rule that if any skill has even a 1% chance of improving output, it must be invoked first."
 keywords: "skill-invocation, 1% rule, discipline, activation, compliance, framework"
 compatibility: "Claude Code and compatible agent products"
 requires: []
@@ -16,6 +16,7 @@ sources_web: []
 This skill enforces the discipline of skill invocation, preventing the agent from shortcutting workflows or rationalizing its way out of using available frameworks. It is the core defensive mechanism against AI overconfidence and drift.
 
 ## Iron Law
+
 `IF THERE IS EVEN A 1% CHANCE A SKILL APPLIES, INVOKE IT`
 AI models are biased toward immediate generation over reference-checking. This rule forces a "pause and check" behavior that prevents low-quality, ungrounded output.
 
@@ -50,16 +51,16 @@ digraph using_skills_flow {
 ## Core Process
 
 ### Step 1: Scan for Applicable Skills
-Check the taxonomy of 41 skills across 6 families. Do not rely on memory; use the taxonomy to identify potential matches. (Source: GEMINI.md, §3.2)
+Check the taxonomy of 41 skills across 6 families. Do not rely on memory; use the taxonomy to identify potential matches. (Source: system design)
 
 ### Step 2: Apply the 1% Rule
-Ask: "Is there even a 1% chance that [skill-name] would improve the outcome of this task?" If yes, it is mandatory to mention it. (Source: GEMINI.md, §3.2)
+Ask: "Is there even a 1% chance that [skill-name] would improve the outcome of this task?" If yes, it is mandatory to mention it. (Source: system design)
 
 ### Step 3: Present Options to User
-State clearly which skills apply and what value they add. Do not make the decision for the user; present it as a professional recommendation. (Source: GEMINI.md architecture)
+State clearly which skills apply and what value they add. Do not make the decision for the user; present it as a professional recommendation. (Source: system design)
 
 ### Step 4: Execute with Full Rigor
-Once a skill is selected, you MUST follow its state machine and iron laws without exception. (Source: GEMINI.md architecture)
+Once a skill is selected, you MUST follow its state machine and iron laws without exception. (Source: system design)
 
 ## Cross-Skill Invocations
 REQUIRED SUB-SKILL: getting-started — for initial session context.
@@ -87,6 +88,6 @@ These thoughts mean STOP — you are about to shortcut:
 - [ ] Did I resist the urge to "wing it"?
 
 ## Sources
-- GEMINI.md, §3.2 — The 1% Rule.
-- GEMINI.md, §3.3 — Rationalization Defense.
-- GEMINI.md, §6.1 — Iron Law Registry.
+- System design — The 1% Rule.
+- System design — Rationalization Defense.
+- System design — Iron Law Registry.

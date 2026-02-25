@@ -8,7 +8,7 @@ keywords: "ultralearning, metalearning, zettelkasten, spaced repetition, active 
 compatibility: "Claude Code and compatible agent products"
 requires: ["writing-skills"]
 enhances: ["mental-model-library", "prompt-optimizer"]
-sources_pdf: ["Ultralearning (Young)", "How to Take Smart Notes (Ahrens)", "A Mind For Numbers (Oakley)", "The Art of Learning (Waitzkin)", "Learn or Die (Hess)"]
+sources_pdf: ["Ultralearning (Young)", "How to Take Smart Notes (Ahrens)", "A Mind For Numbers (Oakley)", "The Art of Learning (Waitzkin)"]
 sources_web: ["Andy Matuschak Spaced Repetition Notes"]
 ---
 
@@ -30,14 +30,15 @@ digraph learning_flow {
     "Metalearning: Map the Field" [shape=box];
     "Setup: Tools & Feedback" [shape=box];
     "Execution: 9 Principles" [shape=box];
-    "Audit: Check Retention" [shape=box];
+    "Gate: Retention Check" [shape=diamond];
     "Mastery/Skill Acquisition" [shape=doublecircle];
 
     "Domain Identified" -> "Metalearning: Map the Field";
     "Metalearning: Map the Field" -> "Setup: Tools & Feedback";
     "Setup: Tools & Feedback" -> "Execution: 9 Principles";
-    "Execution: 9 Principles" -> "Audit: Check Retention";
-    "Audit: Check Retention" -> "Mastery/Skill Acquisition";
+    "Execution: 9 Principles" -> "Gate: Retention Check";
+    "Gate: Retention Check" -> "Mastery/Skill Acquisition" [label="retained"];
+    "Gate: Retention Check" -> "Execution: 9 Principles" [label="leaky bucket"];
 }
 ```
 
@@ -67,6 +68,7 @@ Identify the environment where you will actually use the skill. Practice *there*
 ### Step 3: Implement Spaced Retrieval
 Do not review notes. Instead, use **Active Recall**:
 - **The Feynman Technique:** Explain a concept out loud as if to a child. Identify gaps in your explanation and go back to the source (Source: Oakley, A Mind For Numbers).
+- **Making Smaller Circles:** Reduce complex techniques to their smallest essential components and drill those components in isolation until they become automatic (Source: Waitzkin, The Art of Learning).
 - **Spaced Repetition:** Use an SRS (like Anki) to review facts at increasing intervals (Source: Matuschak).
 
 ### Step 4: The Zettelkasten Method

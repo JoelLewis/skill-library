@@ -3,7 +3,7 @@ name: mental-model-library
 type: meta
 family: meta
 rigor: full
-description: "Use when reasoning about a complex problem, making a high-stakes decision, or analyzing a system that would benefit from multidisciplinary perspectives."
+description: "Use when a problem spans multiple disciplines or when single-domain thinking has produced stale analysis—applies Munger's latticework of mental models across physics, biology, and psychology."
 keywords: "mental models, multidisciplinary, inversion, first principles, entropy, second-order thinking, biases, latticework, Munger, Parrish"
 compatibility: "Claude Code and compatible agent products"
 requires: ["getting-started"]
@@ -30,15 +30,16 @@ digraph mental_model_flow {
     "Invert: Define Failure" [shape=box];
     "Filter: Identify Core Discipline" [shape=box];
     "Apply: Select 2-3 Models" [shape=box];
-    "Audit: Check for Biases" [shape=box];
+    "Gate: Bias Check" [shape=diamond];
     "Synthesize: Find Intersections" [shape=box];
     "Decision/Insight" [shape=doublecircle];
 
     "Problem Identified" -> "Invert: Define Failure";
     "Invert: Define Failure" -> "Filter: Identify Core Discipline";
     "Filter: Identify Core Discipline" -> "Apply: Select 2-3 Models";
-    "Apply: Select 2-3 Models" -> "Audit: Check for Biases";
-    "Audit: Check for Biases" -> "Synthesize: Find Intersections";
+    "Apply: Select 2-3 Models" -> "Gate: Bias Check";
+    "Gate: Bias Check" -> "Synthesize: Find Intersections" [label="clean"];
+    "Gate: Bias Check" -> "Filter: Identify Core Discipline" [label="bias found"];
     "Synthesize: Find Intersections" -> "Decision/Insight";
 }
 ```

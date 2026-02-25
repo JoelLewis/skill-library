@@ -7,7 +7,7 @@ description: "Use when creating new skills, editing existing ones, or verifying 
 keywords: "documentation, TDD, testing, skill-authoring, reference-guide, process"
 compatibility: "Claude Code and compatible agent products"
 requires: []
-enhances: []
+enhances: ["learning-accelerator"]
 sources_pdf: []
 sources_web: []
 ---
@@ -16,6 +16,7 @@ sources_web: []
 This skill enforces a Test-Driven Development (TDD) approach to documentation and skill authoring. By defining what a skill must achieve before writing its content, we ensure functional clarity and prevent "hallucinated utility" or generic, ungrounded advice.
 
 ## Iron Law
+
 `NO SKILL WITHOUT A FAILING TEST FIRST`
 Skills written without a prior test case often drift into generic filler that doesn't solve a specific user problem. The test case grounds the skill in reality.
 
@@ -55,19 +56,19 @@ digraph writing_skills_flow {
 ## Core Process
 
 ### Step 1: Define User Problem
-Identify the specific failure mode or knowledge gap the user is facing. What happens when the user *doesn't* have this skill? (Source: GEMINI.md architecture)
+Identify the specific failure mode or knowledge gap the user is facing. What happens when the user *doesn't* have this skill? (Source: system design)
 
 ### Step 2: Write Failing Test Case
-Draft a sample prompt or scenario where a generic LLM (or the current skill) would fail. This is the "Red" phase of TDD. (Source: GEMINI.md architecture)
+Draft a sample prompt or scenario where a generic LLM (or the current skill) would fail. This is the "Red" phase of TDD. (Source: system design)
 
 ### Step 3: Define Acceptance Criteria
-List 3-5 specific, testable behaviors the skill MUST exhibit to be considered successful. (Source: GEMINI.md architecture)
+List 3-5 specific, testable behaviors the skill MUST exhibit to be considered successful. (Source: system design)
 
 ### Step 4: Author Skill Content
-Write the skill following the appropriate rigor template (§8.3 or §8.4 of GEMINI.md). Every principle must directly address the failure mode identified in Step 1. (Source: GEMINI.md architecture)
+Write the skill following the appropriate rigor template (full rigor or standard rigor). Every principle must directly address the failure mode identified in Step 1. (Source: system design)
 
 ### Step 5: Run Test Case
-Execute the failing test case from Step 2 against the newly authored skill. If the output meets the acceptance criteria, the skill passes. (Source: GEMINI.md architecture)
+Execute the failing test case from Step 2 against the newly authored skill. If the output meets the acceptance criteria, the skill passes. (Source: system design)
 
 ## Cross-Skill Invocations
 REQUIRED SUB-SKILL: None
@@ -95,5 +96,5 @@ These thoughts mean STOP — you are about to shortcut:
 - [ ] Is the skill free of generic, non-actionable advice?
 
 ## Sources
-- GEMINI.md, §3.1 — Pattern Lineage and writing-skills definition.
-- GEMINI.md, §8.3 — Full Rigor format requirements.
+- System design — Pattern Lineage and writing-skills definition.
+- System design — Full Rigor format requirements.

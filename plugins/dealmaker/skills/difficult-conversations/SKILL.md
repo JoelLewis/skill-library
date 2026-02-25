@@ -35,7 +35,7 @@ Others don't "make you mad." You make yourself mad based on the "story" you tell
 ### 5. Protect Your Identity (Source: Stone, Thanks for the Feedback)
 Difficult conversations often trip **Identity Triggers**, making you feel off-balance. Move from an "All-or-Nothing" identity (I am either good or bad) to a "Growth Identity" (I have things to learn).
 
-### 6. Verification is Mandatory (Source: GEMINI.md)
+### 6. Verification is Mandatory (Source: Mnookin, Bargaining with the Devil)
 In difficult conversations, trust but verify. Ensure any agreement includes explicit **Implementation** and **Enforcement** mechanisms, especially with unreliable counterparts.
 
 ## When to Use This Skill

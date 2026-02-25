@@ -9,12 +9,12 @@ compatibility: "Claude Code and compatible agent products"
 requires: ["writing-skills"]
 enhances: ["getting-started", "using-skills"]
 sources_pdf: []
-sources_web: ["OpenAI Prompt Engineering Guide", "Anthropic Prompt Engineering Documentation", "Skill Patty Prompt Writer.md"]
+sources_web: ["OpenAI Prompt Engineering Guide", "Anthropic Prompt Engineering Documentation"]
 ---
 
 ## Overview
 
-Prompt optimization is the engineering of intent into machine-executable instructions. This skill applies the "Patty 4-D Methodology" to ensure that prompts are clear, structured, and optimized for specific model architectures (e.g., Claude's XML tagging vs. OpenAI's Markdown preference).
+Prompt optimization is the engineering of intent into machine-executable instructions. This skill applies the 4-D Methodology (Deconstruct, Diagnose, Develop, Deliver) to ensure that prompts are clear, structured, and optimized for specific model architectures (e.g., Claude's XML tagging vs. OpenAI's Markdown preference).
 
 ## Iron Law
 
@@ -68,7 +68,7 @@ Strip the prompt to its atomic parts. Identify:
 Look for structural weaknesses:
 - **Ambiguity:** Are words like "better," "fast," or "creative" left undefined?
 - **Cognitive Load:** Is the prompt trying to do too many things at once?
-- **Format Gaps:** Is the desired output structure clearly defined? (Source: Skill Patty).
+- **Format Gaps:** Is the desired output structure clearly defined? (Source: Anthropic).
 
 ### Step 3: Develop (Apply Optimization Frameworks)
 Select the appropriate technique based on task complexity:
@@ -117,4 +117,4 @@ Assemble the optimized prompt using a "Bottom-Up" assembly:
 
 - OpenAI, *Prompt Engineering Guide* (Strategies for Task Decomposition).
 - Anthropic, *Prompt Engineering Documentation* (Use of XML tags and Role Prompting).
-- *Skill Patty Prompt Writer.md*, (4-D Methodology).
+- Anthropic, *Prompt Engineering Documentation* (4-D Methodology).

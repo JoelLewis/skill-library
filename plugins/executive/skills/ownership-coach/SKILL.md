@@ -3,7 +3,7 @@ name: ownership-coach
 type: domain
 family: executive
 rigor: standard
-description: "Use when developing leadership accountability or building ownership culture."
+description: "Use when a team is deflecting blame to external factors or a leader is micromanaging—shifts from permission-seeking to intent-stating using Willink's Extreme Ownership and Marquet's Leader-Leader model."
 keywords: "accountability, leadership, coaching, ownership, culture, development"
 compatibility: "Claude Code and compatible agent products"
 requires: []
