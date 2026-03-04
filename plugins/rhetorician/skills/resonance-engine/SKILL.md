@@ -85,6 +85,7 @@ RECOMMENDED SUB-SKILL: **fiction-architect** — for the narrative arc of a pers
 1. **The Gloomy Side:** Focusing on the dark side (prevention/pain) rather than the bright side (health/success). Positive framing outpulls negative 4 to 1. (Source: Hopkins)
 2. **The "Worn-Out" Metaphor:** Using clichés that have lost their sensory impact (e.g., "thinking outside the box"). (Source: Storr/Orwell)
 3. **Naive Realism:** Assuming your "truth" is obvious to everyone and treating skeptics as "idiots." (Source: Storr)
+4. **Engagement Bait (The Degenerate Curiosity Gap):** The "Lowercase n" curiosity curve is a legitimate tool — provide partial knowledge to pull the reader forward. Its corrupt form is false suspense: "But here's the thing," "Here's what most people get wrong," "The real question is…" These phrases promise a revelation and deliver a commonplace. They trigger the same skepticism Principle 3 warns about: the reader detects performance rather than discovery, and credibility collapses. If the information gap is real, the structure itself creates curiosity; you do not need to announce it. (Source: Graham / Storr)
 
 ## Diagnostic Checklist
 - [ ] Is there a moment of unexpected change in the lead?

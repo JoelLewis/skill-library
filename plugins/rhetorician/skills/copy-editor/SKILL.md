@@ -85,6 +85,11 @@ RECOMMENDED SUB-SKILL: **non-fiction-precision** — to ensure the structure is 
 1. **Over-editing too early:** Trying to make the first sentence perfect and never finishing the paragraph. (Source: Lamott)
 2. **The "Forceful" vs "Forcible" Trap:** Using the wrong word because it sounds more "sophisticated." (Source: Strunk)
 3. **Mannerisms:** Falling into a "singsong" rhythm of sentences that are all the same length. (Source: McPhee)
+4. **Performative Framing:** Using syntactic patterns that manufacture tension instead of stating things plainly. These feel manipulative and erode trust: (Source: Strunk / Graham)
+   - **Contrast framing:** "This isn't X, it's Y" — just state what it is.
+   - **Engagement bait / false suspense:** "But here's the thing," "Here's what most people get wrong" — skip the windup and deliver the point.
+   - **Contrarian hooks:** "The real question is…" — manufactured disagreement before a straightforward claim.
+   Direct, confident prose states things as they are. If the point is strong, it does not need a theatrical frame.
 
 ## Diagnostic Checklist
 - [ ] Have I replaced all passive voice with active voice?
@@ -92,6 +97,7 @@ RECOMMENDED SUB-SKILL: **non-fiction-precision** — to ensure the structure is 
 - [ ] Are there any "fad words" or jargon that can be simplified?
 - [ ] Does the sentence length vary to avoid monotony?
 - [ ] Have I checked for unique words that are used more than once?
+- [ ] Is the prose free of performative framing (contrast hooks, engagement bait, contrarian setups)?
 
 ## Sources
 - Strunk, William. *The Elements of Style*. Ch. 2 (Elementary Principles of Composition), Ch. 5 (An Approach to Style).

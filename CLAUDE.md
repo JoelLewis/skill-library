@@ -101,8 +101,10 @@ Claude Code reads `name` and `description` from frontmatter. The remaining field
 - Source citations inline: `(Source: Author, *Title*)`
 - Plugin metadata: `.claude-plugin/plugin.json` per family, `.claude-plugin/marketplace.json` at root
 
+## Writing Voice
+
+When drafting non-fiction prose, state things directly. Do not use contrast framing ("This isn't X, it's Y"), engagement bait ("But here's the thing," "Here's what most people get wrong"), or contrarian hooks ("The real question is…"). If the point is strong, it does not need a theatrical frame.
+
 ## Linear
 
-- **Project**: Dev Tooling (team: Joellewis)
-- Reference issue IDs (e.g., JOE-42) in commit messages and PR titles
-- Issues discovered during implementation go to Triage with `agent-drafted` label
+Linear project: **Dev Tooling** (team: Joellewis)
