@@ -1,15 +1,17 @@
 ---
 name: prd-writing
-type: workflow
-family: workflow
-rigor: full
 description: "Use when translating a product vision into engineering requirements—enforces the Working Backwards PR/FAQ method, requiring a customer-facing press release before any technical spec."
-keywords: "product-requirements, PR-FAQ, specifications, feature-definition, documentation, writing"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["problem-framing", "buyer-persona"]
-enhances: ["stakeholder-review", "one-pager", "executive-briefing", "memo-stress-tester"]
-sources_pdf: ["Working Backwards (Bryar)", "The Pyramid Principle (Minto)", "High Output Management (Grove)"]
-sources_web: ["Amazon PR/FAQ Methodology"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "product-requirements, PR-FAQ, specifications, feature-definition, documentation, writing"
+  requires: "problem-framing, buyer-persona"
+  enhances: "stakeholder-review, one-pager, executive-briefing, memo-stress-tester"
+  sources_pdf: "Working Backwards (Bryar), The Pyramid Principle (Minto), High Output Management (Grove)"
+  sources_web: "Amazon PR/FAQ Methodology"
 ---
 
 ## Overview

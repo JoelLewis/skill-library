@@ -1,15 +1,17 @@
 ---
 name: assumption-audit
-type: workflow
-family: workflow
-rigor: full
 description: "Use as the mandatory evidence gate before signing off on any strategy, PRD, or business case—audits every key claim against documented sources and assigns calibrated probabilities."
-keywords: "validation, evidence, claims, assumptions, testing, gate, verification"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["problem-framing"]
-enhances: ["devils-advocate", "decision-frameworks", "strategy-clarity"]
-sources_pdf: ["Thinking in Bets (Duke)", "How to Decide (Duke)", "Antifragile (Taleb)", "Seeking Wisdom (Bevelin)", "Useful Not True (Sivers)"]
-sources_web: ["Farnam Street: Decision-Making", "Farnam Street: Inversion"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "validation, evidence, claims, assumptions, testing, gate, verification"
+  requires: "problem-framing"
+  enhances: "devils-advocate, decision-frameworks, strategy-clarity"
+  sources_pdf: "Thinking in Bets (Duke), How to Decide (Duke), Antifragile (Taleb), Seeking Wisdom (Bevelin), Useful Not True (Sivers)"
+  sources_web: "Farnam Street: Decision-Making, Farnam Street: Inversion"
 ---
 
 ## Overview

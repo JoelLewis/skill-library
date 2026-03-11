@@ -1,15 +1,17 @@
 ---
 name: copy-editor
-type: domain
-family: rhetorician
-rigor: standard
-description: "Use when performing line-level editing for prose quality, concision, and readability."
-keywords: "editing, prose-quality, line-editing, copyediting, readability, clarity"
+description: "Performs line-level prose editing — pruning adverbs, activating voice, cutting redundancy, and enforcing parallel structure for concision and readability. Use when revising any written content, even if the request is just 'make this better,' 'tighten this up,' or 'clean up the writing.'"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["non-fiction-precision", "resonance-engine", "memo-stress-tester"]
-sources_pdf: ["The Elements of Style (Strunk)", "Draft No. 4 (McPhee)", "Bird by Bird (Lamott)"]
-sources_web: ["Hemingway App methodology"]
+metadata:
+  type: "domain"
+  family: "rhetorician"
+  rigor: "standard"
+  keywords: "editing, prose-quality, line-editing, copyediting, readability, clarity"
+  requires: ""
+  enhances: "non-fiction-precision, resonance-engine, memo-stress-tester"
+  sources_pdf: "The Elements of Style (Strunk), Draft No. 4 (McPhee), Bird by Bird (Lamott)"
+  sources_web: "Hemingway App methodology"
 ---
 
 ## Overview

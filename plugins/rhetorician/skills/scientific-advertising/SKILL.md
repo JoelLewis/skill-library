@@ -1,15 +1,17 @@
 ---
 name: scientific-advertising
-type: domain
-family: rhetorician
-rigor: standard
-description: "Use when writing advertising copy, marketing materials, or evidence-based persuasive content."
-keywords: "persuasion, evidence-based, advertising, marketing, copywriting, messaging, direct-response, conversion, advertising-copy"
+description: "Applies Hopkins' testing rigor and Ogilvy's brand-building discipline to write advertising copy where every line justifies its cost through traced results. Use when writing ads, marketing materials, landing pages, or any evidence-based persuasive content."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["resonance-engine", "copy-editor", "buyer-persona"]
-sources_pdf: ["Scientific Advertising (Hopkins)", "The Personal MBA (Kaufman)", "Ogilvy on Advertising (Ogilvy)"]
-sources_web: []
+metadata:
+  type: "domain"
+  family: "rhetorician"
+  rigor: "standard"
+  keywords: "persuasion, evidence-based, advertising, marketing, copywriting, messaging, direct-response, conversion, advertising-copy"
+  requires: ""
+  enhances: "resonance-engine, copy-editor, buyer-persona"
+  sources_pdf: "Scientific Advertising (Hopkins), The Personal MBA (Kaufman), Ogilvy on Advertising (Ogilvy)"
+  sources_web: ""
 ---
 
 ## Overview

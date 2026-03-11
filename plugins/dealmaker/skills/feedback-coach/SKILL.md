@@ -1,15 +1,17 @@
 ---
 name: feedback-coach
-type: domain
-family: dealmaker
-rigor: standard
-description: "Use when giving or receiving performance feedback, conducting 1:1s, or managing developmental conversations."
-keywords: "feedback, radical candor, coaching, 1:1, performance review, psychological safety, growth mindset, guidance"
+description: "Structures performance feedback using Radical Candor (challenge directly, care personally) and identity-safe framing to ensure feedback drives growth rather than defensiveness. Use when giving or receiving feedback, conducting 1:1s, preparing performance reviews, or coaching developmental conversations."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["rapport-builder"]
-enhances: ["team-builder", "ownership-coach", "operational-excellence"]
-sources_pdf: ["Thanks for the Feedback (Stone)", "Radical Candor (Scott)", "The Fearless Organization (Edmondson)", "Trillion Dollar Coach (Schmidt)"]
-sources_web: ["Kim Scott Radical Candor articles"]
+metadata:
+  type: "domain"
+  family: "dealmaker"
+  rigor: "standard"
+  keywords: "feedback, radical candor, coaching, 1:1, performance review, psychological safety, growth mindset, guidance"
+  requires: "rapport-builder"
+  enhances: "team-builder, ownership-coach, operational-excellence"
+  sources_pdf: "Thanks for the Feedback (Stone), Radical Candor (Scott), The Fearless Organization (Edmondson), Trillion Dollar Coach (Schmidt)"
+  sources_web: "Kim Scott Radical Candor articles"
 ---
 
 ## Overview

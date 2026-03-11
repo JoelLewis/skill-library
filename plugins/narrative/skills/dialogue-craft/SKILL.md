@@ -1,15 +1,17 @@
 ---
 name: dialogue-craft
-type: domain
-family: narrative
-rigor: standard
-description: "Use when writing or refining dialogue, establishing character voice, or layering subtext."
-keywords: "dialogue, voice, subtext, character-voice, writing, conversation"
+description: "Writes and refines dialogue that serves plot and reveals character through subtext, intention, and behavioral exchange — applying McKee's subtext principle and Sorkin's intention-and-obstacle model. Use when dialogue feels flat, expository, or 'on the nose.'"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["character-vulnerability", "non-fiction-precision", "copy-editor"]
-sources_pdf: ["Story (McKee)", "Bird by Bird (Lamott)", "Draft No. 4 (McPhee)"]
-sources_web: ["Sorkin dialogue principles"]
+metadata:
+  type: "domain"
+  family: "narrative"
+  rigor: "standard"
+  keywords: "dialogue, voice, subtext, character-voice, writing, conversation"
+  requires: ""
+  enhances: "character-vulnerability, non-fiction-precision, copy-editor"
+  sources_pdf: "Story (McKee), Bird by Bird (Lamott), Draft No. 4 (McPhee)"
+  sources_web: "Sorkin dialogue principles"
 ---
 
 ## Overview

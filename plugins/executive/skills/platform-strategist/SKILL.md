@@ -1,15 +1,17 @@
 ---
 name: platform-strategist
-type: domain
-family: executive
-rigor: standard
-description: "Use when analyzing platform business models, network effects, or aggregation dynamics."
-keywords: "platform, business-model, network-effects, aggregation, strategy, architecture"
+description: "Analyzes platform business models by distinguishing Aggregators from Platforms, mapping network effects, and identifying when to externalize internal primitives as ecosystem growth engines. Use when evaluating platform dynamics, designing marketplace strategy, or analyzing aggregation and network effects."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["strategy-clarity", "market-context", "operational-excellence"]
-sources_pdf: ["Zero to One (Thiel)", "High Growth Handbook (Gil)", "Working Backwards (Bryar)", "Working in Public (Eghbal)"]
-sources_web: ["Stratechery: The Bill Gates Line", "Stratechery: Shopify & Platforms", "Stratechery: The Amazon Tax"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "platform, business-model, network-effects, aggregation, strategy, architecture"
+  requires: ""
+  enhances: "strategy-clarity, market-context, operational-excellence"
+  sources_pdf: "Zero to One (Thiel), High Growth Handbook (Gil), Working Backwards (Bryar), Working in Public (Eghbal)"
+  sources_web: "Stratechery: The Bill Gates Line, Stratechery: Shopify & Platforms, Stratechery: The Amazon Tax"
 ---
 
 ## Overview

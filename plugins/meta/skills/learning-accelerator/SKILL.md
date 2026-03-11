@@ -1,15 +1,17 @@
 ---
 name: learning-accelerator
-type: meta
-family: meta
-rigor: full
-description: "Use when you need to learn a new domain rapidly, build a study plan, or master a high-stakes professional skill."
-keywords: "ultralearning, metalearning, zettelkasten, spaced repetition, active recall, focused mode, diffuse mode, rapid skill acquisition"
+description: "Compresses domain mastery using Ultralearning and Metacognition principles — moving from passive consumption to active production through directness, retrieval practice, and feedback loops. Use when learning a new domain rapidly, building a study plan, or preparing for a high-stakes professional skill."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["writing-skills"]
-enhances: ["mental-model-library", "prompt-optimizer"]
-sources_pdf: ["Ultralearning (Young)", "How to Take Smart Notes (Ahrens)", "A Mind For Numbers (Oakley)", "The Art of Learning (Waitzkin)"]
-sources_web: ["Andy Matuschak Spaced Repetition Notes"]
+metadata:
+  type: "meta"
+  family: "meta"
+  rigor: "full"
+  keywords: "ultralearning, metalearning, zettelkasten, spaced repetition, active recall, focused mode, diffuse mode, rapid skill acquisition"
+  requires: "writing-skills"
+  enhances: "mental-model-library, prompt-optimizer"
+  sources_pdf: "Ultralearning (Young), How to Take Smart Notes (Ahrens), A Mind For Numbers (Oakley), The Art of Learning (Waitzkin)"
+  sources_web: "Andy Matuschak Spaced Repetition Notes"
 ---
 
 ## Overview

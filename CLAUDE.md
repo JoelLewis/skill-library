@@ -59,25 +59,27 @@ For standalone use without the plugin system, copy any `skills/{name}/SKILL.md` 
 
 ## Skill File Format
 
-Each skill lives at `plugins/{family}/skills/{skill-name}/SKILL.md` with YAML frontmatter:
+Each skill lives at `plugins/{family}/skills/{skill-name}/SKILL.md` with YAML frontmatter conforming to the [agentskills.io specification](https://agentskills.io/specification):
 
 ```yaml
 ---
 name: kebab-case-name
-description: "One-line usage trigger — tells Claude when to invoke this skill"
-type: meta | workflow | domain
-family: meta | workflow | executive | narrative | rhetorician | dealmaker
-rigor: full | standard
-keywords: "comma,separated,search,terms"
+description: "What the skill does + when to activate it (under 1024 chars)"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []        # Prerequisite skills
-enhances: []        # Skills improved by combination
-sources_pdf: []     # Book citations
-sources_web: []     # Web citations
+metadata:
+  type: "meta | workflow | domain"
+  family: "meta | workflow | executive | narrative | rhetorician | dealmaker"
+  rigor: "full | standard"
+  keywords: "comma, separated, search, terms"
+  requires: "skill-a, skill-b"          # Prerequisite skills (comma-separated)
+  enhances: "skill-c, skill-d"          # Skills improved by combination
+  sources_pdf: "Book Title (Author)"    # Book citations (comma-separated)
+  sources_web: "Source Name"            # Web citations (comma-separated)
 ---
 ```
 
-Claude Code reads `name` and `description` from frontmatter. The remaining fields are metadata for tooling and human reference.
+Top-level fields (`name`, `description`, `license`, `compatibility`) are spec-recognized. All other fields live under `metadata` as string values. Claude Code reads `name` and `description` for routing; the remaining fields are metadata for tooling and human reference.
 
 ## Key Architectural Concepts
 
@@ -85,7 +87,7 @@ Claude Code reads `name` and `description` from frontmatter. The remaining field
 
 **Session Bootstrap** (`meta:getting-started`): Routes new tasks to the correct skill. Start here.
 
-**Skill Chaining**: Skills declare `requires` and `enhances` dependencies. The workflow family forms a chain: `problem-framing` → `stakeholder-discovery` → `market-context` → `competitive-analysis` → `buyer-persona` → `business-case` → deliverables → `assumption-audit` → `stakeholder-review`.
+**Skill Chaining**: Skills declare `requires` and `enhances` dependencies in `metadata` (as comma-separated strings). The workflow family forms a chain: `problem-framing` → `stakeholder-discovery` → `market-context` → `competitive-analysis` → `buyer-persona` → `business-case` → deliverables → `assumption-audit` → `stakeholder-review`.
 
 **Source Attribution**: Every principle and framework cites its source (book or URL). No ungrounded methodologies.
 

@@ -1,15 +1,17 @@
 ---
 name: pitch-deck
-type: workflow
-family: workflow
-rigor: full
-description: "Use when creating investor pitches, internal presentations, or funding proposals."
-keywords: "investor-pitch, presentation, funding, storytelling, pitch, investor-relations"
+description: "Builds investor pitches and funding proposals that prove a 'secret' through data and narrative — answering 'Why Now?' and 'Why Us?' using Thiel's definite optimism framework. Use when creating pitch decks, internal presentations, or funding requests."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["problem-framing", "market-context"]
-enhances: ["fiction-architect", "executive-briefing", "business-case"]
-sources_pdf: ["Zero to One (Thiel)", "High Growth Handbook (Gil)", "Scientific Advertising (Hopkins)"]
-sources_web: ["Sequoia Pitch Deck Template", "YC Application Guide"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "investor-pitch, presentation, funding, storytelling, pitch, investor-relations"
+  requires: "problem-framing, market-context"
+  enhances: "fiction-architect, executive-briefing, business-case"
+  sources_pdf: "Zero to One (Thiel), High Growth Handbook (Gil), Scientific Advertising (Hopkins)"
+  sources_web: "Sequoia Pitch Deck Template, YC Application Guide"
 ---
 
 ## Overview

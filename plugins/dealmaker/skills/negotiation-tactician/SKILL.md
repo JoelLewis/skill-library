@@ -1,15 +1,17 @@
 ---
 name: negotiation-tactician
-type: domain
-family: dealmaker
-rigor: standard
-description: "Use when preparing for or conducting negotiations—deals, contracts, salary, partnerships."
-keywords: "negotiation, tactics, deals, tactical-empathy, interests, relationships"
+description: "Transforms negotiations into structured discovery using tactical empathy, interest analysis, and calibrated questions from Voss, Fisher, and Malhotra. Use when preparing for or conducting any negotiation — deals, contracts, salary, partnerships, or vendor terms."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["influence-architect", "rapport-builder", "difficult-conversations"]
-sources_pdf: ["Never Split the Difference (Voss)", "Getting to Yes (Fisher)", "Negotiation Genius (Malhotra)", "Bargaining for Advantage (Shell)", "I Will Teach You to Be Rich (Sethi)"]
-sources_web: ["Harvard PON Blog"]
+metadata:
+  type: "domain"
+  family: "dealmaker"
+  rigor: "standard"
+  keywords: "negotiation, tactics, deals, tactical-empathy, interests, relationships"
+  requires: ""
+  enhances: "influence-architect, rapport-builder, difficult-conversations"
+  sources_pdf: "Never Split the Difference (Voss), Getting to Yes (Fisher), Negotiation Genius (Malhotra), Bargaining for Advantage (Shell), I Will Teach You to Be Rich (Sethi)"
+  sources_web: "Harvard PON Blog"
 ---
 
 ## Overview

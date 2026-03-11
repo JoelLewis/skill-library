@@ -1,15 +1,17 @@
 ---
 name: resonance-engine
-type: domain
-family: rhetorician
-rigor: standard
 description: "Use when writing is structurally clear but emotionally flat—adds turning points, sensory metaphors, and change hooks using Storr's brain-change model and Hopkins' specificity techniques."
-keywords: "persuasion, emotional-impact, resonance, messaging, persuasive, storytelling, emotional-resonance, neurological, turning-points"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["non-fiction-precision", "copy-editor", "pitch-deck", "scientific-advertising"]
-sources_pdf: ["The Science of Storytelling (Storr)", "Story (McKee)", "Scientific Advertising (Hopkins)"]
-sources_web: ["Paul Graham, 'Persuade xor Discover'", "Paul Graham, 'How to Convince Investors'"]
+metadata:
+  type: "domain"
+  family: "rhetorician"
+  rigor: "standard"
+  keywords: "persuasion, emotional-impact, resonance, messaging, persuasive, storytelling, emotional-resonance, neurological, turning-points"
+  requires: ""
+  enhances: "non-fiction-precision, copy-editor, pitch-deck, scientific-advertising"
+  sources_pdf: "The Science of Storytelling (Storr), Story (McKee), Scientific Advertising (Hopkins)"
+  sources_web: "Paul Graham, 'Persuade xor Discover', Paul Graham, 'How to Convince Investors'"
 ---
 
 ## Overview

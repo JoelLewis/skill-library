@@ -1,15 +1,17 @@
 ---
 name: memo-stress-tester
-type: domain
-family: rhetorician
-rigor: standard
-description: "Use when evaluating business documents for structural integrity and persuasive logic."
-keywords: "business-writing, memos, stress-testing, clarity, structure, briefing"
+description: "Stress-tests business documents for logical gaps, unproven assertions, and structural weakness using the Amazon narrative standard, Minto's pyramid logic, and the Completed Staff Work doctrine. Use when evaluating memos, proposals, strategy docs, or any document headed to executive review."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["non-fiction-precision", "prd-writing", "executive-briefing"]
-sources_pdf: ["The Pyramid Principle (Minto)", "The Effective Executive (Drucker)", "Working Backwards (Bryar)"]
-sources_web: ["Amazon 6-pager methodology", "Completed Staff Work doctrine"]
+metadata:
+  type: "domain"
+  family: "rhetorician"
+  rigor: "standard"
+  keywords: "business-writing, memos, stress-testing, clarity, structure, briefing"
+  requires: ""
+  enhances: "non-fiction-precision, prd-writing, executive-briefing"
+  sources_pdf: "The Pyramid Principle (Minto), The Effective Executive (Drucker), Working Backwards (Bryar)"
+  sources_web: "Amazon 6-pager methodology, Completed Staff Work doctrine"
 ---
 
 ## Overview

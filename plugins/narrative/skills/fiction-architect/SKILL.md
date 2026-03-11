@@ -1,15 +1,17 @@
 ---
 name: fiction-architect
-type: domain
-family: narrative
-rigor: standard
-description: "Use when constructing plot structure, story arcs, or narrative frameworks."
-keywords: "plot-structure, storytelling, causality, narrative-design, story-arcs"
+description: "Designs plot structure and story arcs using McKee's value turns, Campbell's monomyth, and Sanderson's Promise/Progress/Payoff model to ensure causal integrity and emotional resonance. Use when constructing narratives, outlining novels, or diagnosing why a story feels broken."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["character-vulnerability", "world-building-logic", "pitch-deck"]
-sources_pdf: ["Story (McKee)", "Science of Storytelling (Storr)", "The Hero With a Thousand Faces (Campbell)"]
-sources_web: ["Sanderson BYU lectures", "Industrial Scripts ABT article"]
+metadata:
+  type: "domain"
+  family: "narrative"
+  rigor: "standard"
+  keywords: "plot-structure, storytelling, causality, narrative-design, story-arcs"
+  requires: ""
+  enhances: "character-vulnerability, world-building-logic, pitch-deck"
+  sources_pdf: "Story (McKee), Science of Storytelling (Storr), The Hero With a Thousand Faces (Campbell)"
+  sources_web: "Sanderson BYU lectures, Industrial Scripts ABT article"
 ---
 
 ## Overview

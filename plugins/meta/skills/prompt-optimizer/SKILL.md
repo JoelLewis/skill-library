@@ -1,15 +1,17 @@
 ---
 name: prompt-optimizer
-type: meta
-family: meta
-rigor: full
-description: "Use when a draft prompt, instruction set, or agent skill description needs refinement, clarity, or improved performance."
-keywords: "prompt engineering, 4-D methodology, chain of thought, few-shot, XML tags, system prompt, optimization, clarity"
+description: "Engineers prompts into clear, structured, model-optimized instructions using the 4-D methodology (Deconstruct, Diagnose, Develop, Deliver) with architecture-specific tuning. Use when a draft prompt, instruction set, or agent skill description needs refinement for clarity or improved performance."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["writing-skills"]
-enhances: ["getting-started", "using-skills"]
-sources_pdf: []
-sources_web: ["OpenAI Prompt Engineering Guide", "Anthropic Prompt Engineering Documentation"]
+metadata:
+  type: "meta"
+  family: "meta"
+  rigor: "full"
+  keywords: "prompt engineering, 4-D methodology, chain of thought, few-shot, XML tags, system prompt, optimization, clarity"
+  requires: "writing-skills"
+  enhances: "getting-started, using-skills"
+  sources_pdf: ""
+  sources_web: "OpenAI Prompt Engineering Guide, Anthropic Prompt Engineering Documentation"
 ---
 
 ## Overview

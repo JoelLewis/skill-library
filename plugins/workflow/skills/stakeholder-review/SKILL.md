@@ -1,15 +1,17 @@
 ---
 name: stakeholder-review
-type: workflow
-family: workflow
-rigor: full
 description: "Use when a deliverable needs structured stakeholder sign-off before finalization—runs the pre-read, feedback-type alignment, and conflict-resolution protocol."
-keywords: "feedback, review, validation, refinement, deliverables, stakeholder-input"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["stakeholder-discovery"]
-enhances: ["assumption-audit", "prd-writing", "pitch-deck", "one-pager"]
-sources_pdf: ["Scaling People (Johnson)", "Crucial Conversations (Grenny)", "Thanks for the Feedback (Stone)"]
-sources_web: ["First Round Review: The Best Leaders are Feedback Magnets"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "feedback, review, validation, refinement, deliverables, stakeholder-input"
+  requires: "stakeholder-discovery"
+  enhances: "assumption-audit, prd-writing, pitch-deck, one-pager"
+  sources_pdf: "Scaling People (Johnson), Crucial Conversations (Grenny), Thanks for the Feedback (Stone)"
+  sources_web: "First Round Review: The Best Leaders are Feedback Magnets"
 ---
 
 ## Overview

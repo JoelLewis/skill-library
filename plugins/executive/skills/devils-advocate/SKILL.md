@@ -1,15 +1,17 @@
 ---
 name: devils-advocate
-type: domain
-family: executive
-rigor: standard
 description: "Use when a proposal has unanimous support or relies on a single high-impact assumption—constructs the strongest possible counter-argument (Steel Man) and runs a Pre-Mortem."
-keywords: "stress-testing, adversarial, challenge, risk-identification, critique, validation"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["strategy-clarity", "assumption-audit", "decision-frameworks"]
-sources_pdf: ["Thinking in Bets (Duke)", "Poor Charlie's Almanack (Munger)", "Antifragile (Taleb)", "Seeking Wisdom (Bevelin)", "How to Decide (Duke)"]
-sources_web: ["Paul Graham: How to Think for Yourself", "Farnam Street: Inversion", "Farnam Street: Probabilistic Thinking"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "stress-testing, adversarial, challenge, risk-identification, critique, validation"
+  requires: ""
+  enhances: "strategy-clarity, assumption-audit, decision-frameworks"
+  sources_pdf: "Thinking in Bets (Duke), Poor Charlie's Almanack (Munger), Antifragile (Taleb), Seeking Wisdom (Bevelin), How to Decide (Duke)"
+  sources_web: "Paul Graham: How to Think for Yourself, Farnam Street: Inversion, Farnam Street: Probabilistic Thinking"
 ---
 
 ## Overview

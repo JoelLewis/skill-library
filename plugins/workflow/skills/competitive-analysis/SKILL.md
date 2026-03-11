@@ -1,15 +1,17 @@
 ---
 name: competitive-analysis
-type: workflow
-family: workflow
-rigor: full
 description: "Use when performing a structured teardown of a specific competitor's activity system, moat, or vulnerability profile—requires at least one named rival to analyze."
-keywords: "competitors, market-positioning, strategy, analysis, alternatives, teardown, activity-system, moat-audit, competitor-teardown"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["problem-framing"]
-enhances: ["strategy-clarity", "devils-advocate", "market-context"]
-sources_pdf: ["Playing to Win (Lafley)", "Zero to One (Thiel)", "The Personal MBA (Kaufman)", "Lessons from the Titans (Davis)", "Dear Chairman (Gramm)"]
-sources_web: ["Stratechery: Aggregation Theory", "Stratechery: The Bill Gates Line", "Stratechery: What Christensen Got Wrong", "Stratechery: Shopify & Platforms"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "competitors, market-positioning, strategy, analysis, alternatives, teardown, activity-system, moat-audit, competitor-teardown"
+  requires: "problem-framing"
+  enhances: "strategy-clarity, devils-advocate, market-context"
+  sources_pdf: "Playing to Win (Lafley), Zero to One (Thiel), The Personal MBA (Kaufman), Lessons from the Titans (Davis), Dear Chairman (Gramm)"
+  sources_web: "Stratechery: Aggregation Theory, Stratechery: The Bill Gates Line, Stratechery: What Christensen Got Wrong, Stratechery: Shopify & Platforms"
 ---
 
 ## Overview

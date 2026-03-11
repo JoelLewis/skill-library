@@ -1,15 +1,17 @@
 ---
 name: mental-model-library
-type: meta
-family: meta
-rigor: full
 description: "Use when a problem spans multiple disciplines or when single-domain thinking has produced stale analysis—applies Munger's latticework of mental models across physics, biology, and psychology."
-keywords: "mental models, multidisciplinary, inversion, first principles, entropy, second-order thinking, biases, latticework, Munger, Parrish"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["getting-started"]
-enhances: ["devils-advocate", "decision-frameworks", "strategy-clarity"]
-sources_pdf: ["The Great Mental Models v1 & v2 (Parrish)", "Poor Charlie's Almanack (Munger)", "Seeking Wisdom (Bevelin)"]
-sources_web: ["Farnam Street Mental Models Blog"]
+metadata:
+  type: "meta"
+  family: "meta"
+  rigor: "full"
+  keywords: "mental models, multidisciplinary, inversion, first principles, entropy, second-order thinking, biases, latticework, Munger, Parrish"
+  requires: "getting-started"
+  enhances: "devils-advocate, decision-frameworks, strategy-clarity"
+  sources_pdf: "The Great Mental Models v1 & v2 (Parrish), Poor Charlie's Almanack (Munger), Seeking Wisdom (Bevelin)"
+  sources_web: "Farnam Street Mental Models Blog"
 ---
 
 ## Overview

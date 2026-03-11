@@ -1,15 +1,17 @@
 ---
 name: getting-started
-type: meta
-family: meta
-rigor: full
 description: "Use at the start of any session or when a task has no clear skill assignment—routes the request to the correct skill family and establishes workflow chain context."
-keywords: "bootstrap, session-setup, routing, skill-discovery, task-initialization, workflow-context"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: []
-sources_pdf: []
-sources_web: []
+metadata:
+  type: "meta"
+  family: "meta"
+  rigor: "full"
+  keywords: "bootstrap, session-setup, routing, skill-discovery, task-initialization, workflow-context"
+  requires: ""
+  enhances: ""
+  sources_pdf: ""
+  sources_web: ""
 ---
 
 ## Overview

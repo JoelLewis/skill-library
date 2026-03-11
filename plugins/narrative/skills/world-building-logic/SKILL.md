@@ -1,15 +1,17 @@
 ---
 name: world-building-logic
-type: domain
-family: narrative
-rigor: standard
-description: "Use when building fictional worlds, designing magic systems, or ensuring internal consistency."
-keywords: "consistency, world-building, internal-logic, setting, magic-system, design"
+description: "Engineers internally consistent fictional worlds using Brand's Pace Layers for social structure and Sanderson's Laws of Magic for system constraints. Use when building settings, designing magic or tech systems, or auditing a world for logical contradictions."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["fiction-architect", "character-vulnerability", "prompt-optimizer"]
-sources_pdf: ["How Buildings Learn (Brand)", "Science of Storytelling (Storr)", "The Hero With a Thousand Faces (Campbell)"]
-sources_web: ["Sanderson magic system lectures"]
+metadata:
+  type: "domain"
+  family: "narrative"
+  rigor: "standard"
+  keywords: "consistency, world-building, internal-logic, setting, magic-system, design"
+  requires: ""
+  enhances: "fiction-architect, character-vulnerability, prompt-optimizer"
+  sources_pdf: "How Buildings Learn (Brand), Science of Storytelling (Storr), The Hero With a Thousand Faces (Campbell)"
+  sources_web: "Sanderson magic system lectures"
 ---
 
 ## Overview

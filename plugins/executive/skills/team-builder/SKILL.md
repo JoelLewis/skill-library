@@ -1,15 +1,17 @@
 ---
 name: team-builder
-type: domain
-family: executive
-rigor: standard
-description: "Use when building team culture, establishing psychological safety, or improving team effectiveness."
-keywords: "culture, psychological-safety, team-dynamics, management, effectiveness, collaboration"
+description: "Creates high-trust, high-performance team environments through structural mechanisms for psychological safety, shared consciousness, and empowered execution. Use when building team culture, onboarding new teams, diagnosing team dysfunction, or improving collaboration."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["ownership-coach", "feedback-coach", "difficult-conversations"]
-sources_pdf: ["The Fearless Organization (Edmondson)", "The Culture Code (Coyle)", "Team of Teams (McChrystal)", "Creativity Inc (Catmull)", "Trillion Dollar Coach (Schmidt)"]
-sources_web: ["Google re:Work: Team Effectiveness", "Farnam Street: Psychological Safety", "First Round Review: Culture of Belonging"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "culture, psychological-safety, team-dynamics, management, effectiveness, collaboration"
+  requires: ""
+  enhances: "ownership-coach, feedback-coach, difficult-conversations"
+  sources_pdf: "The Fearless Organization (Edmondson), The Culture Code (Coyle), Team of Teams (McChrystal), Creativity Inc (Catmull), Trillion Dollar Coach (Schmidt)"
+  sources_web: "Google re:Work: Team Effectiveness, Farnam Street: Psychological Safety, First Round Review: Culture of Belonging"
 ---
 
 ## Overview

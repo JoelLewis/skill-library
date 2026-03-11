@@ -1,15 +1,17 @@
 ---
 name: market-context
-type: workflow
-family: workflow
-rigor: full
 description: "Use when validating market timing, structural forces, or distribution moats before committing strategic resources—focuses on macro context, not individual competitor teardowns."
-keywords: "market-research, strategy, competitive-landscape, go-to-market, positioning, dynamics, timing, structural-forces, distribution-moats, aggregation-theory"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["problem-framing"]
-enhances: ["strategy-clarity", "competitive-analysis", "business-case"]
-sources_pdf: ["Zero to One (Thiel)", "High Growth Handbook (Gil)", "Playing to Win (Lafley)"]
-sources_web: ["Stratechery: Aggregation Theory", "Stratechery: The Great Unbundling", "Stratechery: Smiling Curve"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "market-research, strategy, competitive-landscape, go-to-market, positioning, dynamics, timing, structural-forces, distribution-moats, aggregation-theory"
+  requires: "problem-framing"
+  enhances: "strategy-clarity, competitive-analysis, business-case"
+  sources_pdf: "Zero to One (Thiel), High Growth Handbook (Gil), Playing to Win (Lafley)"
+  sources_web: "Stratechery: Aggregation Theory, Stratechery: The Great Unbundling, Stratechery: Smiling Curve"
 ---
 
 ## Overview

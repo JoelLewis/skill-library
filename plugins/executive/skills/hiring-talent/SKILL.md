@@ -1,15 +1,17 @@
 ---
 name: hiring-talent
-type: domain
-family: executive
-rigor: standard
-description: "Use when designing hiring processes, evaluating candidates, or building talent strategy."
-keywords: "recruitment, talent-assessment, hiring, selection, candidates, interviews"
+description: "Designs rigorous hiring processes using structured behavioral interviews and work sample tests, replacing gut feel with data-driven evaluation of energy, obsession, and persistence. Use when building interview loops, evaluating candidates, writing job descriptions, or designing talent strategy."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["team-builder", "first-90-days", "ownership-coach"]
-sources_pdf: ["Talent (Cowen)", "Work Rules! (Bock)", "Scaling People (Johnson)", "Trillion Dollar Coach (Schmidt)", "High Growth Handbook (Gil)"]
-sources_web: ["Paul Graham: How to Hire", "Farnam Street: Talent is Persistence", "Google re:Work: Structured Interviewing"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "recruitment, talent-assessment, hiring, selection, candidates, interviews"
+  requires: ""
+  enhances: "team-builder, first-90-days, ownership-coach"
+  sources_pdf: "Talent (Cowen), Work Rules! (Bock), Scaling People (Johnson), Trillion Dollar Coach (Schmidt), High Growth Handbook (Gil)"
+  sources_web: "Paul Graham: How to Hire, Farnam Street: Talent is Persistence, Google re:Work: Structured Interviewing"
 ---
 
 ## Overview

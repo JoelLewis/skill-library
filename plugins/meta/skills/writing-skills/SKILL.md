@@ -1,15 +1,17 @@
 ---
 name: writing-skills
-type: meta
-family: meta
-rigor: full
-description: "Use when creating new skills, editing existing ones, or verifying skill quality before deployment."
-keywords: "documentation, TDD, testing, skill-authoring, reference-guide, process"
+description: "Enforces a test-driven approach to skill authoring — defining what a skill must achieve before writing content to prevent hallucinated utility or ungrounded advice. Use when creating new skills, editing existing ones, or verifying skill quality before deployment."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["learning-accelerator"]
-sources_pdf: []
-sources_web: []
+metadata:
+  type: "meta"
+  family: "meta"
+  rigor: "full"
+  keywords: "documentation, TDD, testing, skill-authoring, reference-guide, process"
+  requires: ""
+  enhances: "learning-accelerator"
+  sources_pdf: ""
+  sources_web: ""
 ---
 
 ## Overview

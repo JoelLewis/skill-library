@@ -1,15 +1,17 @@
 ---
 name: rapport-builder
-type: domain
-family: dealmaker
-rigor: standard
 description: "Use when initiating a relationship or entering a new team—builds Tactical Empathy through mirroring, labeling, and belonging cues before conflict arises."
-keywords: "rapport, trust, tactical empathy, active listening, psychological safety, mirroring, labeling, mutual purpose, connection"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["negotiation-tactician", "difficult-conversations", "first-90-days", "team-builder"]
-sources_pdf: ["Never Split the Difference (Voss)", "The Culture Code (Coyle)", "Crucial Conversations (Grenny)", "Get Together (Richardson)"]
-sources_web: ["Harvard PON relationship articles"]
+metadata:
+  type: "domain"
+  family: "dealmaker"
+  rigor: "standard"
+  keywords: "rapport, trust, tactical empathy, active listening, psychological safety, mirroring, labeling, mutual purpose, connection"
+  requires: ""
+  enhances: "negotiation-tactician, difficult-conversations, first-90-days, team-builder"
+  sources_pdf: "Never Split the Difference (Voss), The Culture Code (Coyle), Crucial Conversations (Grenny), Get Together (Richardson)"
+  sources_web: "Harvard PON relationship articles"
 ---
 
 ## Overview

@@ -1,15 +1,17 @@
 ---
 name: non-fiction-precision
-type: domain
-family: rhetorician
-rigor: standard
 description: "Use when a document's argument buries its conclusion or has logical gaps—applies Minto's Pyramid (Answer First, MECE grouping) and Orwell's concision rules to rebuild structure."
-keywords: "structural-clarity, non-fiction, writing, organization, logic, comprehension"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["one-pager", "executive-briefing", "prd-writing"]
-sources_pdf: ["The Pyramid Principle (Minto)", "Draft No. 4 (McPhee)", "The Elements of Style (Strunk)"]
-sources_web: ["George Orwell, 'Politics and the English Language'", "Paul Graham, 'Write Like You Talk'"]
+metadata:
+  type: "domain"
+  family: "rhetorician"
+  rigor: "standard"
+  keywords: "structural-clarity, non-fiction, writing, organization, logic, comprehension"
+  requires: ""
+  enhances: "one-pager, executive-briefing, prd-writing"
+  sources_pdf: "The Pyramid Principle (Minto), Draft No. 4 (McPhee), The Elements of Style (Strunk)"
+  sources_web: "George Orwell, 'Politics and the English Language', Paul Graham, 'Write Like You Talk'"
 ---
 
 ## Overview

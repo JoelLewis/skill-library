@@ -1,15 +1,17 @@
 ---
 name: difficult-conversations
-type: domain
-family: dealmaker
-rigor: standard
 description: "Use when navigating high-stakes, emotionally charged, or potentially confrontational interpersonal situations with untrustworthy or high-conflict counterparts."
-keywords: "difficult conversations, conflict resolution, safety restoration, BATNA, negotiation traps, high-conflict, bargaining, crucial conversations"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["rapport-builder", "feedback-coach"]
-enhances: ["negotiation-tactician", "strategy-clarity", "decision-frameworks"]
-sources_pdf: ["Crucial Conversations (Grenny)", "Thanks for the Feedback (Stone)", "Bargaining With the Devil (Mnookin)"]
-sources_web: ["Harvard PON difficult conversations series"]
+metadata:
+  type: "domain"
+  family: "dealmaker"
+  rigor: "standard"
+  keywords: "difficult conversations, conflict resolution, safety restoration, BATNA, negotiation traps, high-conflict, bargaining, crucial conversations"
+  requires: "rapport-builder, feedback-coach"
+  enhances: "negotiation-tactician, strategy-clarity, decision-frameworks"
+  sources_pdf: "Crucial Conversations (Grenny), Thanks for the Feedback (Stone), Bargaining With the Devil (Mnookin)"
+  sources_web: "Harvard PON difficult conversations series"
 ---
 
 ## Overview

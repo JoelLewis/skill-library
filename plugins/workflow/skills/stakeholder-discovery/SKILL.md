@@ -1,15 +1,17 @@
 ---
 name: stakeholder-discovery
-type: workflow
-family: workflow
-rigor: full
 description: "Use when projects involve multiple stakeholders, decision-makers, or affected parties—maps motivations and power dynamics."
-keywords: "stakeholders, audience-mapping, motivations, power-dynamics, discovery, decision-makers"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["buyer-persona", "prd-writing", "stakeholder-review", "executive-briefing"]
-sources_pdf: ["Scaling People (Johnson)", "High Output Management (Grove)", "Crucial Conversations (Grenny)", "The Making of a Manager (Zhuo)", "HBR Guide to Managing Up (HBR)"]
-sources_web: ["SVPG: Stakeholder Management vs. Engagement", "Silicon Valley Product Group: Stakeholder Identification"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "stakeholders, audience-mapping, motivations, power-dynamics, discovery, decision-makers"
+  requires: ""
+  enhances: "buyer-persona, prd-writing, stakeholder-review, executive-briefing"
+  sources_pdf: "Scaling People (Johnson), High Output Management (Grove), Crucial Conversations (Grenny), The Making of a Manager (Zhuo), HBR Guide to Managing Up (HBR)"
+  sources_web: "SVPG: Stakeholder Management vs. Engagement, Silicon Valley Product Group: Stakeholder Identification"
 ---
 
 ## Overview

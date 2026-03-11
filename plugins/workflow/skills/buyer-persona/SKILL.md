@@ -1,15 +1,17 @@
 ---
 name: buyer-persona
-type: workflow
-family: workflow
-rigor: full
 description: "Use when defining target users, customers, or audience segments to ensure they are grounded in real customer jobs rather than arbitrary demographics."
-keywords: "persona, customer-profile, target-audience, JTBD, job-to-be-done, user-segmentation, buyer-journey, customer-obsession"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["stakeholder-discovery"]
-enhances: ["prd-writing", "pitch-deck"]
-sources_pdf: ["The Jobs to Be Done Playbook (Kalbach)", "Talking to Humans (Constable)", "Working Backwards (Bryar)", "Anything You Want (Sivers)", "Get Together (Richardson)"]
-sources_web: ["Lenny's Newsletter: Persona Methodology"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "persona, customer-profile, target-audience, JTBD, job-to-be-done, user-segmentation, buyer-journey, customer-obsession"
+  requires: "stakeholder-discovery"
+  enhances: "prd-writing, pitch-deck"
+  sources_pdf: "The Jobs to Be Done Playbook (Kalbach), Talking to Humans (Constable), Working Backwards (Bryar), Anything You Want (Sivers), Get Together (Richardson)"
+  sources_web: "Lenny's Newsletter: Persona Methodology"
 ---
 
 ## Overview

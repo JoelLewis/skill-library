@@ -1,15 +1,17 @@
 ---
 name: using-skills
-type: meta
-family: meta
-rigor: full
 description: "Invoke before responding to any non-trivial task—enforces the 1% rule that if any skill has even a 1% chance of improving output, it must be invoked first."
-keywords: "skill-invocation, 1% rule, discipline, activation, compliance, framework"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: []
-sources_pdf: []
-sources_web: []
+metadata:
+  type: "meta"
+  family: "meta"
+  rigor: "full"
+  keywords: "skill-invocation, 1% rule, discipline, activation, compliance, framework"
+  requires: ""
+  enhances: ""
+  sources_pdf: ""
+  sources_web: ""
 ---
 
 ## Overview

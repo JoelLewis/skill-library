@@ -1,15 +1,17 @@
 ---
 name: first-90-days
-type: domain
-family: executive
-rigor: standard
-description: "Use when transitioning into a new role, team, or organization—new leader onboarding."
-keywords: "onboarding, new-role, transition, 90-days, leadership, ramp-up"
+description: "Provides a structured framework for new-role transitions — accelerating credibility, avoiding the Savior Trap, and reaching the breakeven point where value contribution exceeds consumption. Use when starting a new job, joining a new team, or taking on expanded responsibilities."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["rapport-builder", "influence-architect", "team-builder", "hiring-talent"]
-sources_pdf: ["The First 90 Days (Watkins)", "Scaling People (Johnson)", "High Output Management (Grove)", "The Making of a Manager (Zhuo)", "Designing Your Life (Burnett)"]
-sources_web: ["First Round Review: New Leader Playbook", "Farnam Street: Second-Order Thinking"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "onboarding, new-role, transition, 90-days, leadership, ramp-up"
+  requires: ""
+  enhances: "rapport-builder, influence-architect, team-builder, hiring-talent"
+  sources_pdf: "The First 90 Days (Watkins), Scaling People (Johnson), High Output Management (Grove), The Making of a Manager (Zhuo), Designing Your Life (Burnett)"
+  sources_web: "First Round Review: New Leader Playbook, Farnam Street: Second-Order Thinking"
 ---
 
 ## Overview

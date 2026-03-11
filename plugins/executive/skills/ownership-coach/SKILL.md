@@ -1,15 +1,17 @@
 ---
 name: ownership-coach
-type: domain
-family: executive
-rigor: standard
 description: "Use when a team is deflecting blame to external factors or a leader is micromanaging—shifts from permission-seeking to intent-stating using Willink's Extreme Ownership and Marquet's Leader-Leader model."
-keywords: "accountability, leadership, coaching, ownership, culture, development"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["team-builder", "feedback-coach", "operational-excellence"]
-sources_pdf: ["Extreme Ownership (Willink)", "Turn the Ship Around (Marquet)", "The Score Takes Care of Itself (Walsh)", "The Hard Thing About Hard Things (Horowitz)", "Anything You Want (Sivers)", "Hell Yeah or No (Sivers)"]
-sources_web: ["Paul Graham: Maker's Schedule, Manager's Schedule", "Derek Sivers: Hell Yeah or No"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "accountability, leadership, coaching, ownership, culture, development"
+  requires: ""
+  enhances: "team-builder, feedback-coach, operational-excellence"
+  sources_pdf: "Extreme Ownership (Willink), Turn the Ship Around (Marquet), The Score Takes Care of Itself (Walsh), The Hard Thing About Hard Things (Horowitz), Anything You Want (Sivers), Hell Yeah or No (Sivers)"
+  sources_web: "Paul Graham: Maker's Schedule, Manager's Schedule, Derek Sivers: Hell Yeah or No"
 ---
 
 ## Overview

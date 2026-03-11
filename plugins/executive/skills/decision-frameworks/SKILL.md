@@ -1,15 +1,17 @@
 ---
 name: decision-frameworks
-type: domain
-family: executive
-rigor: standard
 description: "Use when choosing between mutually exclusive strategic paths or building a repeatable decision process—constructs Decision Matrices with probability estimates and runs Pre-Mortems."
-keywords: "decision-making, uncertainty, mental-models, frameworks, analysis, probabilistic"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["strategy-clarity", "devils-advocate", "assumption-audit"]
-sources_pdf: ["Thinking in Bets (Duke)", "How to Decide (Duke)", "The Great Mental Models v1 (Parrish)", "The Great Mental Models v2 (Parrish)", "Poor Charlie's Almanack (Munger)", "Useful Not True (Sivers)"]
-sources_web: ["Farnam Street: Decision-making series", "Farnam Street: Mental Models"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "decision-making, uncertainty, mental-models, frameworks, analysis, probabilistic"
+  requires: ""
+  enhances: "strategy-clarity, devils-advocate, assumption-audit"
+  sources_pdf: "Thinking in Bets (Duke), How to Decide (Duke), The Great Mental Models v1 (Parrish), The Great Mental Models v2 (Parrish), Poor Charlie's Almanack (Munger), Useful Not True (Sivers)"
+  sources_web: "Farnam Street: Decision-making series, Farnam Street: Mental Models"
 ---
 
 ## Overview

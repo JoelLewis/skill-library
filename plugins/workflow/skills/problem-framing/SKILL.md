@@ -1,15 +1,17 @@
 ---
 name: problem-framing
-type: workflow
-family: workflow
-rigor: full
 description: "Use when beginning analytical or strategic tasks, facing undefined problems, or facing analysis paralysis—requires explicit problem definition before proceeding."
-keywords: "discovery, problem-definition, root-cause, analysis-gate, requirements, scope"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["competitive-analysis", "buyer-persona", "business-case", "market-context"]
-sources_pdf: ["The Personal MBA (Kaufman)", "Playing to Win (Lafley)", "The Design of Everyday Things (Norman)", "User Friendly (Kuang)", "Designing Your Life (Burnett)", "Making Things Happen (Berkun)"]
-sources_web: ["First Round Review: Design Sprint Discovery"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "discovery, problem-definition, root-cause, analysis-gate, requirements, scope"
+  requires: ""
+  enhances: "competitive-analysis, buyer-persona, business-case, market-context"
+  sources_pdf: "The Personal MBA (Kaufman), Playing to Win (Lafley), The Design of Everyday Things (Norman), User Friendly (Kuang), Designing Your Life (Burnett), Making Things Happen (Berkun)"
+  sources_web: "First Round Review: Design Sprint Discovery"
 ---
 
 ## Overview

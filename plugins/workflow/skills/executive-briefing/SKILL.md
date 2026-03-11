@@ -1,15 +1,17 @@
 ---
 name: executive-briefing
-type: workflow
-family: workflow
-rigor: full
-description: "Use when communicating with board members, C-suite executives, or senior leadership."
-keywords: "board-communication, leadership, executive, briefing, communication, C-suite"
+description: "Crafts senior leadership communications that deliver judgment rather than activity reports, connecting directly to organizational strategy and driving clear decisions. Use when presenting to board members, C-suite executives, or senior leadership — including status updates, recommendations, and escalations."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["one-pager"]
-enhances: ["stakeholder-review", "resonance-engine"]
-sources_pdf: ["The Effective Executive (Drucker)", "High Output Management (Grove)", "The Pyramid Principle (Minto)"]
-sources_web: ["HBR: Executive Communication Principles", "HBR: Briefing the Board"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "board-communication, leadership, executive, briefing, communication, C-suite"
+  requires: "one-pager"
+  enhances: "stakeholder-review, resonance-engine"
+  sources_pdf: "The Effective Executive (Drucker), High Output Management (Grove), The Pyramid Principle (Minto)"
+  sources_web: "HBR: Executive Communication Principles, HBR: Briefing the Board"
 ---
 
 ## Overview

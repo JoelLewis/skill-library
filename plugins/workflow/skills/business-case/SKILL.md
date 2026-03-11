@@ -1,15 +1,17 @@
 ---
 name: business-case
-type: workflow
-family: workflow
-rigor: full
 description: "Use when justifying investment, resource allocation, or strategic decisions with financial and logical reasoning to ensure positive ROI and alignment with long-term goals."
-keywords: "ROI, investment-thesis, business-model, financial-projection, cost-benefit-analysis, runway, burn-rate, capital-allocation, resource-justification"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: ["problem-framing"]
-enhances: ["pitch-deck", "prd-writing"]
-sources_pdf: ["The Personal MBA (Kaufman)", "High Growth Handbook (Gil)", "Measure What Matters (Doerr)", "Venture Deals (Feld)", "The Psychology of Money (Housel)", "Practical Portfolio Performance (Bacon)"]
-sources_web: ["First Round Review: Startup Resource Justification"]
+metadata:
+  type: "workflow"
+  family: "workflow"
+  rigor: "full"
+  keywords: "ROI, investment-thesis, business-model, financial-projection, cost-benefit-analysis, runway, burn-rate, capital-allocation, resource-justification"
+  requires: "problem-framing"
+  enhances: "pitch-deck, prd-writing"
+  sources_pdf: "The Personal MBA (Kaufman), High Growth Handbook (Gil), Measure What Matters (Doerr), Venture Deals (Feld), The Psychology of Money (Housel), Practical Portfolio Performance (Bacon)"
+  sources_web: "First Round Review: Startup Resource Justification"
 ---
 
 ## Overview

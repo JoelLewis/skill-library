@@ -1,15 +1,17 @@
 ---
 name: operational-excellence
-type: domain
-family: executive
-rigor: standard
-description: "Use when designing execution systems, OKR frameworks, or operational processes."
-keywords: "execution, systems, OKRs, management, processes, operations, efficiency"
+description: "Designs high-leverage execution systems that translate strategic choices into measurable output — building mechanisms (not intentions), managing controllable inputs, and optimizing team topology for flow. Use when designing OKR frameworks, operational processes, or execution rhythms."
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["strategy-clarity", "team-builder", "prd-writing"]
-sources_pdf: ["High Output Management (Grove)", "Measure What Matters (Doerr)", "Working Backwards (Bryar)", "An Elegant Puzzle (Larson)", "The Mythical Man-Month (Brooks)"]
-sources_web: ["Stratechery: The Amazon Tax", "Google re:Work: Team Effectiveness", "Farnam Street: Second-Order Thinking"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "execution, systems, OKRs, management, processes, operations, efficiency"
+  requires: ""
+  enhances: "strategy-clarity, team-builder, prd-writing"
+  sources_pdf: "High Output Management (Grove), Measure What Matters (Doerr), Working Backwards (Bryar), An Elegant Puzzle (Larson), The Mythical Man-Month (Brooks)"
+  sources_web: "Stratechery: The Amazon Tax, Google re:Work: Team Effectiveness, Farnam Street: Second-Order Thinking"
 ---
 
 ## Overview

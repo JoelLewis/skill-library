@@ -1,15 +1,17 @@
 ---
 name: strategy-clarity
-type: domain
-family: executive
-rigor: standard
 description: "Use when an organization's priorities are undifferentiated or a team has too many strategic goals—defines Winning Aspiration, Where to Play, and How to Win using Lafley's Strategic Choice Cascade."
-keywords: "positioning, strategy, competitive-advantage, vision, business-direction, planning"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["problem-framing", "market-context", "competitive-analysis", "platform-strategist"]
-sources_pdf: ["Playing to Win (Lafley)", "Zero to One (Thiel)", "Working Backwards (Bryar)", "Lessons from the Titans (Davis)"]
-sources_web: ["Stratechery: Aggregation Theory", "Stratechery: The Bill Gates Line", "Stratechery: Tech's Two Philosophies"]
+metadata:
+  type: "domain"
+  family: "executive"
+  rigor: "standard"
+  keywords: "positioning, strategy, competitive-advantage, vision, business-direction, planning"
+  requires: ""
+  enhances: "problem-framing, market-context, competitive-analysis, platform-strategist"
+  sources_pdf: "Playing to Win (Lafley), Zero to One (Thiel), Working Backwards (Bryar), Lessons from the Titans (Davis)"
+  sources_web: "Stratechery: Aggregation Theory, Stratechery: The Bill Gates Line, Stratechery: Tech's Two Philosophies"
 ---
 
 ## Overview

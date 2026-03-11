@@ -1,15 +1,17 @@
 ---
 name: influence-architect
-type: domain
-family: dealmaker
-rigor: standard
 description: "Use when navigating organizational politics, building coalitions, or exercising strategic influence."
-keywords: "power-dynamics, influence, persuasion, coalition-building, social-proof, reciprocity, organizational-politics, strategic-positioning"
+license: MIT
 compatibility: "Claude Code and compatible agent products"
-requires: []
-enhances: ["negotiation-tactician", "rapport-builder"]
-sources_pdf: ["Managing With Power (Pfeffer)", "Power: Why Some People Have It (Pfeffer)", "The 48 Laws of Power (Greene)", "The Power Broker (Caro)", "Master of the Senate (Caro)"]
-sources_web: ["Cialdini: Influence Principles"]
+metadata:
+  type: "domain"
+  family: "dealmaker"
+  rigor: "standard"
+  keywords: "power-dynamics, influence, persuasion, coalition-building, social-proof, reciprocity, organizational-politics, strategic-positioning"
+  requires: ""
+  enhances: "negotiation-tactician, rapport-builder"
+  sources_pdf: "Managing With Power (Pfeffer), Power: Why Some People Have It (Pfeffer), The 48 Laws of Power (Greene), The Power Broker (Caro), Master of the Senate (Caro)"
+  sources_web: "Cialdini: Influence Principles"
 ---
 
 ## Overview
