@@ -1,6 +1,6 @@
 ---
 name: strategy-clarity
-description: "Use when an organization's priorities are undifferentiated or a team has too many strategic goals—defines Winning Aspiration, Where to Play, and How to Win using Lafley's Strategic Choice Cascade."
+description: "Use when an organization needs strategic clarity — identifying where to play, how to win, and whether the position is defensible. Composes Wardley evolution mapping, Lafley's choice cascade, Helmer's 7 Powers, and Working Backwards based on what's already decided."
 license: MIT
 compatibility: "Claude Code and compatible agent products"
 metadata:
@@ -9,8 +9,8 @@ metadata:
   rigor: "standard"
   keywords: "positioning, strategy, competitive-advantage, vision, business-direction, planning"
   requires: ""
-  enhances: "problem-framing, market-context, competitive-analysis, platform-strategist"
-  sources_pdf: "Playing to Win (Lafley), Zero to One (Thiel), Working Backwards (Bryar), Lessons from the Titans (Davis)"
+  enhances: "problem-framing, market-context, competitive-analysis, platform-strategist, business-case"
+  sources_pdf: "Playing to Win (Lafley), Zero to One (Thiel), Working Backwards (Bryar), Lessons from the Titans (Davis), 7 Powers (Helmer), Good Strategy Bad Strategy (Rumelt), Wardley Maps (Wardley)"
   sources_web: "Stratechery: Aggregation Theory, Stratechery: The Bill Gates Line, Stratechery: Tech's Two Philosophies"
 ---
 
