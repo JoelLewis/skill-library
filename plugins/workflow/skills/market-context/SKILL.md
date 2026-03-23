@@ -101,6 +101,9 @@ State what *must* be true about the market for the strategy to work. (Source: La
 | "Our product is so good, it sells itself." | Distribution is at least as important as product. (Source: Gil/Thiel). |
 | "We are first to market." | First mover is a tactic; Last Mover is the goal (Far-future profts). |
 | "The industry is too old to change." | Old industries are prime for "Unbundling" or "Aggregation." (Source: Stratechery). |
+| "First mover advantage will protect us." | First Mover is a tactic, not a moat. Last Mover Advantage — generating the last great development and capturing durable profits — is the strategic goal. (Source: Thiel, *Zero to One*, Ch. 5) |
+| "We're debating whether this is Custom or Product." | Evolution stage is observable: how many vendors? Published standards? Training courses? These are empirical signals. If you're debating, look at the market, not your org chart. |
+| "Supply is commoditizing but that's not our problem." | When supply-side components commoditize, aggregation dynamics form on the demand side. This directly affects your Where to Play. (Source: Stratechery, "Aggregation Theory"; Wardley, *Wardley Maps*, Ch. 4) |
 
 ## Red Flags
 
@@ -109,14 +112,18 @@ These thoughts mean STOP — you are about to shortcut:
 - "We'll build it and they will come." → Neglecting the Distribution Question.
 - "We are copying a successful global model." → 1-to-n globalization is not 0-to-1 technology.
 - "The TAM is our primary justification." → High TAM often hides high competition.
+- "The TAM is huge, we only need a tiny share." → A $100B TAM with 50 funded competitors is worse than a $500M TAM you can monopolize. TAM describes the weather, not where to build. (Source: Thiel, *Zero to One*, Ch. 5)
+- "This component is our differentiator." → Check the evolution stage. If the market has published standards, multiple vendors, and training courses, it's Product or Commodity — you're fighting evolutionary flow. (Source: Wardley, *Wardley Maps*, Ch. 2-4)
 
 ## Diagnostic Checklist
 
 - [ ] Have we answered the Seven Questions for this strategic recommendation?
 - [ ] Is the "Where to Play" choice grounded in a structurally attractive segment?
+- [ ] Have we mapped the evolution stage of key value chain components?
+- [ ] Have we identified components whose evolution creates strategic opportunity or risk?
 - [ ] Have we identified the "Inflection Point" or "Scaling Signal" for this market?
-- [ ] Is our strategy defensible against "Aggregation Theory" shifts?
-- [ ] Have we identified the "Secret" (contrarian truth) about this market?
+- [ ] Is our strategy defensible against Aggregation Theory shifts?
+- [ ] Have we identified the contrarian insight ("Secret") about this market?
 
 ## Sources
 
