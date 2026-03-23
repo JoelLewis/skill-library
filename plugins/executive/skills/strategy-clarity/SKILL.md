@@ -127,13 +127,23 @@ Ask: "What must be true about the market, customers, and competitors for this st
 3. **Indefinite Optimism:** Expecting the future to work out without a definite plan. (Source: Thiel, Ch. 6)
 4. **Platform Confusion:** Mistaking an Aggregator (owning the customer) for a Platform (empowering suppliers). (Source: Stratechery, "The Bill Gates Line")
 
+## Gotchas
+
+- **Counter-Positioning requires self-harm.** A position is only Counter-Positioned (Helmer) if the incumbent's rational response would cannibalize their core business. If they can respond without self-harm, you don't have Counter-Positioning — you have a feature lead with a countdown timer. (Source: Helmer, *7 Powers*, Ch. 3)
+- **Evolution stage applies to components, not products.** A product can contain components at Genesis (novel AI model), Custom (proprietary data pipeline), and Commodity (cloud hosting) simultaneously. Map each component's evolution separately when assessing Where to Play. (Source: Wardley, *Wardley Maps*, Ch. 2-3)
+- **Working Backwards PR/FAQ is not a PRD.** If the press release reads like a requirements document, the customer-empathy step was skipped. The PR must be written as if a journalist is explaining why a customer cares. (Source: Bryar, *Working Backwards*, Ch. 4)
+- **"Where to Play" without evolution awareness is a snapshot.** Markets move. A Where to Play choice grounded only in current structure will miss value migration. Wardley's evolution axis shows where components are heading, not just where they are. (Source: Wardley, *Wardley Maps*, Ch. 4)
+- **Vague positions can't be stress-tested.** If the Lafley cascade output is "be the leading platform for X," it's too vague for 7 Powers analysis. A testable position names the specific mechanism: "own the demand aggregation layer by..." Loop back to How to Win.
+
 ## Diagnostic Checklist
 
 - [ ] Have we explicitly chosen where NOT to play?
-- [ ] Is our "How to Win" based on a unique capability or a 10x technology?
-- [ ] Can we state the "Secret" or contrarian truth this strategy is built on?
-- [ ] Does the strategy include a reinforcing "Flywheel" loop?
-- [ ] Have we passed the "What must be true" logic test?
+- [ ] Is the "Where to Play" informed by component evolution, not just current market structure?
+- [ ] Is the "How to Win" specific enough to name the mechanism (not just "differentiation")?
+- [ ] Can we identify at least one of Helmer's 7 Powers that this position could build?
+- [ ] Has the position been validated with a "What must be true" reverse-logic test?
+- [ ] Can we state the contrarian insight ("Secret") this strategy is built on?
+- [ ] Is there a clear path from strategy to execution artifact (PR/FAQ or equivalent)?
 
 ## Sources
 
