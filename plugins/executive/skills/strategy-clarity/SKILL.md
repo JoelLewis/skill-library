@@ -16,7 +16,32 @@ metadata:
 
 ## Overview
 
-Strategy clarity is the process of defining a coordinated set of choices that uniquely position an organization to win. This skill transforms vague "goals" into a specific "Winning Cascade" by grounding decisions in monopoly theory, customer-obsessed flywheels, and structural platform dynamics.
+Strategy clarity is the process of defining a coordinated set of choices that uniquely position an organization to win. This skill composes four frameworks into a pipeline: Wardley evolution mapping builds situational awareness, Lafley's cascade makes the choices, Helmer's 7 Powers stress-tests defensibility, and Working Backwards translates intent into execution. The Lafley cascade is the default and core process; the others compose around it based on what's already decided.
+
+## Decision State
+
+Strategic clarity is not a single framework — it is a pipeline of frameworks, each handling a different phase. Your entry point depends on what's already decided:
+
+**What's already decided determines where you start:**
+
+1. **Nothing — greenfield, pivot, or "we don't know where to play"**
+   Start with evolution mapping to build situational awareness before choosing.
+   → Read `references/evolution-mapping.md`, then return here for the Cascade.
+
+2. **Where to play is clear, how to win isn't**
+   Start with the Strategic Choice Cascade below (Step 3: How to Win).
+
+3. **Strategy is chosen, unsure if it's defensible**
+   Stress-test the position for durable power sources.
+   → Read `references/seven-powers-audit.md`.
+
+4. **Strategy is validated, need execution machinery**
+   Translate strategic intent into customer-facing artifacts.
+   → Read `references/working-backwards-execution.md`.
+
+Each phase validates the previous one's output. If the Lafley cascade produces a vague position ("be the best platform"), loop back to evolution mapping. If 7 Powers finds no defensible power source, loop back to How to Win.
+
+> **Organizational commitment.** This skill covers strategic *choice*, not organizational *adoption*. Securing institutional commitment for a strategy — coalition-building, guiding policy, coherent action — is a distinct challenge not covered here. (See: Rumelt, *Good Strategy Bad Strategy*; Kotter, *Leading Change*.)
 
 ## Guiding Principles
 
