@@ -10,7 +10,7 @@ metadata:
   keywords: "market-research, strategy, competitive-landscape, go-to-market, positioning, dynamics, timing, structural-forces, distribution-moats, aggregation-theory"
   requires: "problem-framing"
   enhances: "strategy-clarity, competitive-analysis, business-case"
-  sources_pdf: "Zero to One (Thiel), High Growth Handbook (Gil), Playing to Win (Lafley)"
+  sources_pdf: "Zero to One (Thiel), High Growth Handbook (Gil), Playing to Win (Lafley), Wardley Maps (Wardley)"
   sources_web: "Stratechery: Aggregation Theory, Stratechery: The Great Unbundling, Stratechery: Smiling Curve"
 ---
 
@@ -64,6 +64,7 @@ Evaluate if the industry is structurally attractive. (Source: Lafley, Playing to
 1. **Analyze Five Forces:** Are barriers to entry high? Is supplier/buyer power concentrated?
 2. **Identify Value Migration:** Is value moving to the ends of the "Smiling Curve" (Creation/Customer) or toward the center (Manufacturing)? (Source: Stratechery)
 3. **Map the Aggregation Dynamic:** Is the market shifting from supply control to demand aggregation? (Source: Stratechery, "Aggregation Theory")
+4. **Assess Component Evolution:** For each major component in the value chain, identify its evolution stage — Genesis (novel, uncertain), Custom (understood but bespoke), Product (standardized, off-the-shelf), or Commodity (utility, undifferentiated). Components further left than the market expects are strategic opportunities; components further right than you're treating them are strategic risks. (Source: Wardley, *Wardley Maps*, Ch. 2-4)
 
 ### Step 2: The Seven Questions Test
 Validate the context against Thiel's fundamental laws. (Source: Thiel, Zero to One, Ch. 13)
