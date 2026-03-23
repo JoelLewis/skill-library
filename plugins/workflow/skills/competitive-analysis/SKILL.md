@@ -10,7 +10,7 @@ metadata:
   keywords: "competitors, market-positioning, strategy, analysis, alternatives, teardown, activity-system, moat-audit, competitor-teardown"
   requires: "problem-framing"
   enhances: "strategy-clarity, devils-advocate, market-context"
-  sources_pdf: "Playing to Win (Lafley), Zero to One (Thiel), The Personal MBA (Kaufman), Lessons from the Titans (Davis), Dear Chairman (Gramm)"
+  sources_pdf: "Playing to Win (Lafley), Zero to One (Thiel), 7 Powers (Helmer), The Personal MBA (Kaufman), Lessons from the Titans (Davis), Dear Chairman (Gramm)"
   sources_web: "Stratechery: Aggregation Theory, Stratechery: The Bill Gates Line, Stratechery: What Christensen Got Wrong, Stratechery: Shopify & Platforms"
 ---
 
@@ -65,12 +65,18 @@ Do not compare features. Compare the *system* of reinforcing activities. (Source
 2. **Deconstruct the Reinforcing Loop:** How do their activities (e.g., low cost + high volume + limited SKUs) make it harder for you to copy them without breaking your own model?
 3. **Identify the "Limiting Step":** What is the one thing they cannot change without destroying their current profitability?
 
-### Step 2: Perform the Monopoly Audit
-Verify if the competitor (or you) has the four characteristics of a true moat. (Source: Thiel, Zero to One, Ch. 5)
-1. **Proprietary Technology:** Is it 10x better in a way that is *unmeasurable* (e.g., UX/Ease of Use) or just a specs war? (Source: Stratechery, "What Christensen Got Wrong")
-2. **Network Effects:** Does the product get more valuable with every user?
-3. **Economies of Scale:** Does the cost per unit drop significantly with volume?
-4. **Branding:** Is the brand an "integrated" experience or just a logo?
+### Step 2: Perform the Moat Audit
+Assess whether the competitor (or you) has a durable power source. Use Helmer's 7 Powers as the primary taxonomy, with Thiel's 10x test as the threshold bar. (Source: Helmer, *7 Powers*; Thiel, *Zero to One*, Ch. 5)
+
+1. **Scale Economies:** Does unit cost decline with volume in a way that locks out smaller rivals?
+2. **Network Economies:** Does the product get more valuable with each user, creating a flywheel?
+3. **Counter-Positioning:** Would responding to this competitor require us to cannibalize our own business model?
+4. **Switching Costs:** Are customers locked in by financial, procedural, or data-migration costs?
+5. **Branding:** Does the brand command a premium that persists when features are matched?
+6. **Cornered Resource:** Do they have preferential access to talent, IP, data, or regulatory position?
+7. **Process Power:** Do embedded organizational processes deliver superior outcomes that are opaque to outsiders?
+
+For each power source identified, apply Thiel's threshold: is it 10x better on a dimension that matters to the customer, or is it a marginal advantage that can be competed away?
 
 ### Step 3: Audit the "Operating System"
 Assess the rival's execution discipline. (Source: Davis, Lessons from the Titans, Ch. 12)
