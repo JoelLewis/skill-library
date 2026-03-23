@@ -134,4 +134,5 @@ These thoughts mean STOP — you are about to shortcut:
 - Kaufman, *The Personal MBA*, Ch. 3 — Competitive Forces and Substitutes.
 - Davis, *Lessons from the Titans*, Ch. 12 — Industrial Business Systems and Arrogance.
 - Gramm, *Dear Chairman*, Ch. 1 & 5 — Intrinsic Value and Ownership Boards.
+- Helmer, *7 Powers*, Ch. 3, 6, 8, 9 — Counter-Positioning, Switching Costs, Branding, Process Power.
 - Stratechery, "Aggregation Theory" — Demand aggregation vs. Supply control.

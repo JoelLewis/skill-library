@@ -150,4 +150,8 @@ Ask: "What must be true about the market, customers, and competitors for this st
 - Lafley & Martin, *Playing to Win*, Ch. 1-5, 7 — Strategy Cascade, WTP/HTW.
 - Thiel, *Zero to One*, Ch. 3, 5, 6, 8, 13 — Monopoly theory, Secrets, Definite Optimism.
 - Bryar & Carr, *Working Backwards*, Ch. 1 — Flywheel, Customer Obsession.
+- Bryar & Carr, *Working Backwards*, Ch. 4-5 — PR/FAQ, Mechanisms, Controllable Inputs.
+- Helmer, *7 Powers*, Ch. 1-9 — Power types, barriers, dynamics.
+- Wardley, *Wardley Maps*, Ch. 2-5 — Evolution, Value Chains, Situational Awareness.
+- Rumelt, *Good Strategy Bad Strategy* — Kernel of strategy, organizational commitment.
 - Stratechery, "The Bill Gates Line" & "Aggregation Theory" — Platform vs Aggregator dynamics.

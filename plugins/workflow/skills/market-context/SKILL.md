@@ -131,4 +131,5 @@ These thoughts mean STOP — you are about to shortcut:
 - Gil, *High Growth Handbook*, Intro & Ch. 3 — Distribution and Scaling.
 - Lafley, *Playing to Win*, Ch. 3 & 7 — Industry structure and reverse engineering.
 - Stratechery, "Aggregation Theory" — Demand aggregation dynamics.
+- Wardley, *Wardley Maps*, Ch. 2-4 — Evolution stages, value chain mapping.
 - Stratechery, "The Great Unbundling" — Breaking and re-bundling around attention.
