@@ -103,6 +103,8 @@ For every claim (e.g., "We are faster"), you must cite:
 | "Our tech is 10x better." | Unless it's 10x better on an *unmeasurable* consumer attribute (UX), it's a "modular" target. |
 | "They are just a copycat." | "Me-too" competitors with lower overhead or a "modular" stack often win on price (Modular Disruption). |
 | "We don't need evidence for common knowledge." | Common knowledge is often "arrogance in disguise." Verification is the only defense. |
+| "They can't respond without destroying their business." | Verify the direction: Counter-Positioning only applies when *their* response requires self-harm. If *you* can't respond to *them*, you're the one being Counter-Positioned. |
+| "We have no competitors." | Anything the customer uses to solve the job — including doing nothing — is a competitor. You defined the market wrong. (Source: Thiel, *Zero to One*, Ch. 5) |
 
 ## Red Flags
 
@@ -111,14 +113,19 @@ These thoughts mean STOP — you are about to shortcut:
 - "They are too old/slow to catch us." → Arrogance (Source: Boeing 737MAX failure).
 - "We have 1% of a massive market." → The 1% Trap (Source: Thiel).
 - "Our brand is our moat." → Branding is a *result* of a system, not a standalone moat (Source: Lafley).
+- "Their moat is just branding." → Branding without an underlying power source (Scale, Network, Switching Costs) is a logo, not a moat. (Source: Helmer, *7 Powers*, Ch. 8)
+- "We have switching costs, they can't leave." → Competitors invest in migration tools to erode switching costs. Assess where switching costs will be in 2 years, not where they are today. (Source: Helmer, *7 Powers*, Ch. 6)
+- "We can't figure out how they do it." → If results consistently exceed what visible inputs explain, suspect Process Power. Flag it as an unknown rather than dismissing it. (Source: Helmer, *7 Powers*, Ch. 9)
 
 ## Diagnostic Checklist
 
 - [ ] Have we mapped the competitor's reinforcing activities, not just their features?
-- [ ] Is our "10x" advantage verified by two independent, non-internal sources?
+- [ ] Have we identified which of the 7 Powers the competitor holds (if any)?
+- [ ] Is our claimed advantage verified by two independent, non-internal sources?
+- [ ] Have we checked whether our advantage is a durable power source or a temporary feature lead?
 - [ ] Have we identified the "Job-to-be-Done" that the competitor is solving?
-- [ ] Did we check for "Modular Disruption" (Modular vs. Integrated moats)?
-- [ ] Have we identified the "Limiting Step" in the competitor's system?
+- [ ] Did we check for Counter-Positioning in both directions (theirs against us AND ours against them)?
+- [ ] Have we identified the "Limiting Step" in the competitor's activity system?
 
 ## Sources
 
