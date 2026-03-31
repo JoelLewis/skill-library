@@ -8,7 +8,7 @@ metadata:
   family: "workflow"
   rigor: "full"
   keywords: "ROI, investment-thesis, business-model, financial-projection, cost-benefit-analysis, runway, burn-rate, capital-allocation, resource-justification"
-  requires: "problem-framing"
+  requires: "problem-framing, buyer-persona, competitive-analysis"
   enhances: "pitch-deck, prd-writing"
   sources_pdf: "The Personal MBA (Kaufman), High Growth Handbook (Gil), Measure What Matters (Doerr), Venture Deals (Feld), The Psychology of Money (Housel), Practical Portfolio Performance (Bacon)"
   sources_web: "First Round Review: Startup Resource Justification"

@@ -8,7 +8,7 @@ metadata:
   family: "workflow"
   rigor: "full"
   keywords: "persona, customer-profile, target-audience, JTBD, job-to-be-done, user-segmentation, buyer-journey, customer-obsession"
-  requires: "stakeholder-discovery"
+  requires: "stakeholder-discovery, competitive-analysis"
   enhances: "prd-writing, pitch-deck"
   sources_pdf: "The Jobs to Be Done Playbook (Kalbach), Talking to Humans (Constable), Working Backwards (Bryar), Anything You Want (Sivers), Get Together (Richardson)"
   sources_web: "Lenny's Newsletter: Persona Methodology"

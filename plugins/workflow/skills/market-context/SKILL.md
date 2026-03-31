@@ -8,7 +8,7 @@ metadata:
   family: "workflow"
   rigor: "full"
   keywords: "market-research, strategy, competitive-landscape, go-to-market, positioning, dynamics, timing, structural-forces, distribution-moats, aggregation-theory"
-  requires: "problem-framing"
+  requires: "problem-framing, stakeholder-discovery"
   enhances: "strategy-clarity, competitive-analysis, business-case"
   sources_pdf: "Zero to One (Thiel), High Growth Handbook (Gil), Playing to Win (Lafley), Wardley Maps (Wardley)"
   sources_web: "Stratechery: Aggregation Theory, Stratechery: The Great Unbundling, Stratechery: Smiling Curve"

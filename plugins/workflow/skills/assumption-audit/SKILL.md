@@ -8,7 +8,7 @@ metadata:
   family: "workflow"
   rigor: "full"
   keywords: "validation, evidence, claims, assumptions, testing, gate, verification"
-  requires: "problem-framing"
+  requires: "problem-framing, business-case"
   enhances: "devils-advocate, decision-frameworks, strategy-clarity"
   sources_pdf: "Thinking in Bets (Duke), How to Decide (Duke), Antifragile (Taleb), Seeking Wisdom (Bevelin), Useful Not True (Sivers)"
   sources_web: "Farnam Street: Decision-Making, Farnam Street: Inversion"

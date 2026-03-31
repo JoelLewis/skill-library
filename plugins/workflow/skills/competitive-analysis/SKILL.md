@@ -8,7 +8,7 @@ metadata:
   family: "workflow"
   rigor: "full"
   keywords: "competitors, market-positioning, strategy, analysis, alternatives, teardown, activity-system, moat-audit, competitor-teardown"
-  requires: "problem-framing"
+  requires: "problem-framing, market-context"
   enhances: "strategy-clarity, devils-advocate, market-context"
   sources_pdf: "Playing to Win (Lafley), Zero to One (Thiel), 7 Powers (Helmer), The Personal MBA (Kaufman), Lessons from the Titans (Davis), Dear Chairman (Gramm)"
   sources_web: "Stratechery: Aggregation Theory, Stratechery: The Bill Gates Line, Stratechery: What Christensen Got Wrong, Stratechery: Shopify & Platforms"

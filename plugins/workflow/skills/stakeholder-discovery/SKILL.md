@@ -1,6 +1,6 @@
 ---
 name: stakeholder-discovery
-description: "Use when projects involve multiple stakeholders, decision-makers, or affected parties—maps motivations and power dynamics."
+description: "Use when you need to map who has power, who will be affected, and what motivates each party — produces a stakeholder map as an analytical artifact. This skill identifies and categorizes stakeholders; it does not persuade or influence them (use influence-architect for that)."
 license: MIT
 compatibility: "Claude Code and compatible agent products"
 metadata:
@@ -8,7 +8,7 @@ metadata:
   family: "workflow"
   rigor: "full"
   keywords: "stakeholders, audience-mapping, motivations, power-dynamics, discovery, decision-makers"
-  requires: ""
+  requires: "problem-framing"
   enhances: "buyer-persona, prd-writing, stakeholder-review, executive-briefing"
   sources_pdf: "Scaling People (Johnson), High Output Management (Grove), Crucial Conversations (Grenny), The Making of a Manager (Zhuo), HBR Guide to Managing Up (HBR)"
   sources_web: "SVPG: Stakeholder Management vs. Engagement, Silicon Valley Product Group: Stakeholder Identification"

@@ -1,6 +1,6 @@
 ---
 name: difficult-conversations
-description: "Use when navigating high-stakes, emotionally charged, or potentially confrontational interpersonal situations with untrustworthy or high-conflict counterparts."
+description: "Use when confronting a specific counterpart about a breach, violation, or adversarial behavior — situations where trust is already broken and the goal is accountability or resolution, not relationship-building. Not for giving developmental feedback (use feedback-coach) or building trust with new people (use rapport-builder)."
 license: MIT
 compatibility: "Claude Code and compatible agent products"
 metadata:

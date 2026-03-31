@@ -1,6 +1,6 @@
 ---
 name: rapport-builder
-description: "Use when initiating a relationship or entering a new team—builds Tactical Empathy through mirroring, labeling, and belonging cues before conflict arises."
+description: "Use when building trust with people who don't yet know or trust you — new teams, new roles, hostile audiences, or strained relationships where the goal is connection before any ask. Applies Tactical Empathy through mirroring, labeling, and belonging cues. Not for confrontation (use difficult-conversations) or giving feedback (use feedback-coach)."
 license: MIT
 compatibility: "Claude Code and compatible agent products"
 metadata:

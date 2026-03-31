@@ -1,6 +1,6 @@
 ---
 name: influence-architect
-description: "Use when navigating organizational politics, building coalitions, or exercising strategic influence."
+description: "Use when you need to act on a known political landscape — building coalitions, persuading specific people, or maneuvering to get a decision approved. Assumes you already know who the stakeholders are (if not, use stakeholder-discovery first to map them)."
 license: MIT
 compatibility: "Claude Code and compatible agent products"
 metadata:

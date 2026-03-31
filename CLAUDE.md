@@ -87,7 +87,7 @@ Top-level fields (`name`, `description`, `license`, `compatibility`) are spec-re
 
 **Session Bootstrap** (`meta:getting-started`): Routes new tasks to the correct skill. Start here.
 
-**Skill Chaining**: Skills declare `requires` and `enhances` dependencies in `metadata` (as comma-separated strings). The workflow family forms a chain: `problem-framing` → `stakeholder-discovery` → `market-context` → `competitive-analysis` → `buyer-persona` → `business-case` → deliverables → `assumption-audit` → `stakeholder-review`.
+**Skill Chaining**: Skills declare `requires` and `enhances` dependencies in `metadata` (as comma-separated strings). The workflow family forms a chain: `problem-framing` → `stakeholder-discovery` → `market-context` → `competitive-analysis` → `buyer-persona` → `business-case` → deliverable skills (`prd-writing`, `pitch-deck`, `one-pager`, `executive-briefing`) → `assumption-audit` → `stakeholder-review`.
 
 **Source Attribution**: Every principle and framework cites its source (book or URL). No ungrounded methodologies.
 

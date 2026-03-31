@@ -8,7 +8,7 @@ metadata:
   family: "workflow"
   rigor: "full"
   keywords: "feedback, review, validation, refinement, deliverables, stakeholder-input"
-  requires: "stakeholder-discovery"
+  requires: "stakeholder-discovery, assumption-audit"
   enhances: "assumption-audit, prd-writing, pitch-deck, one-pager"
   sources_pdf: "Scaling People (Johnson), Crucial Conversations (Grenny), Thanks for the Feedback (Stone)"
   sources_web: "First Round Review: The Best Leaders are Feedback Magnets"
