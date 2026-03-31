@@ -1,0 +1,106 @@
+{
+  "group": "People",
+  "skills_under_test": ["stakeholder-discovery", "buyer-persona", "team-builder", "hiring-talent"],
+  "evals": [
+    {
+      "query": "I'm launching a new internal platform and need to figure out who has decision-making power, who will block us, and who are the hidden influencers. There are at least 4 departments involved.",
+      "should_trigger": "stakeholder-discovery",
+      "rationale": "Organizational power mapping, decision-maker identification, multi-department stakeholder analysis"
+    },
+    {
+      "query": "We keep saying our product is for 'small business owners' but that's way too broad. I need to define who we're actually building for based on what problems they're trying to solve.",
+      "should_trigger": "buyer-persona",
+      "rationale": "Customer segmentation grounded in jobs-to-be-done, moving beyond demographics"
+    },
+    {
+      "query": "My team just went through a reorg and trust is low. People are siloed, meetings are unproductive, and nobody speaks up when something is wrong. How do I fix this?",
+      "should_trigger": "team-builder",
+      "rationale": "Team dysfunction, psychological safety, shared consciousness — team-builder territory"
+    },
+    {
+      "query": "We're hiring our first 3 backend engineers and I want to make sure we have a structured interview process — no more gut-feel decisions.",
+      "should_trigger": "hiring-talent",
+      "rationale": "Structured interview design, work sample tests, data-driven hiring evaluation"
+    },
+    {
+      "query": "Before we write the PRD, I need to map out everyone who'll need to sign off — legal, compliance, the VP of Engineering, and the external partner team all have different concerns.",
+      "should_trigger": "stakeholder-discovery",
+      "rationale": "Pre-deliverable stakeholder mapping, sign-off identification, motivations and concerns"
+    },
+    {
+      "query": "Our SaaS targets both CFOs and individual accountants — those are totally different buyers with different needs. Help me build personas for each that aren't just demographic profiles.",
+      "should_trigger": "buyer-persona",
+      "rationale": "Multiple buyer segments, JTBD-grounded persona creation"
+    },
+    {
+      "query": "I inherited a remote team of 8 across 3 time zones and the async communication is a mess. Nobody reads the docs, standup notes go nowhere.",
+      "should_trigger": "team-builder",
+      "rationale": "Team collaboration mechanisms, shared consciousness in distributed teams"
+    },
+    {
+      "query": "We need a senior product manager but our last 3 hires didn't work out. How do I design an interview loop that actually predicts job performance?",
+      "should_trigger": "hiring-talent",
+      "rationale": "Interview loop design, behavioral interview structure, prediction of job performance"
+    },
+    {
+      "query": "The marketing team thinks they own the messaging, product thinks they own positioning, and sales has their own deck. I need to understand who actually controls what before we do the rebrand.",
+      "should_trigger": "stakeholder-discovery",
+      "rationale": "Organizational ecosystem mapping, ownership and power dynamics across teams"
+    },
+    {
+      "query": "I want to understand the 'struggling moment' our users experience right before they search for a tool like ours. What triggers them to look?",
+      "should_trigger": "buyer-persona",
+      "rationale": "JTBD struggling moments, buyer journey trigger analysis"
+    },
+    {
+      "query": "How should I structure the compensation package for a VP of Engineering hire?",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: compensation design is beyond hiring-talent's scope (interview process, not comp)"
+    },
+    {
+      "query": "I need to negotiate a better deal with our cloud vendor — they're overcharging us by at least 30%.",
+      "should_trigger_not": true,
+      "rationale": "Negotiation, not people/stakeholder mapping"
+    },
+    {
+      "query": "My direct report keeps missing deadlines and I need to have a tough conversation about performance.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: feedback-coach or difficult-conversations, not team-builder or hiring"
+    },
+    {
+      "query": "Write a competitive analysis of how Figma's team collaboration features compare to Sketch.",
+      "should_trigger_not": true,
+      "rationale": "Competitor teardown, not people/stakeholder analysis"
+    },
+    {
+      "query": "I need a market sizing analysis for the HR tech space in APAC.",
+      "should_trigger_not": true,
+      "rationale": "Market analysis, not people-related skills"
+    },
+    {
+      "query": "Help me understand how to influence the engineering director to support our initiative — he's been quietly blocking it in steering meetings.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: influence-architect territory, not stakeholder-discovery (which maps but doesn't influence)"
+    },
+    {
+      "query": "We're onboarding 5 new hires next month. I want to create a structured 90-day ramp plan for each of them.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: first-90-days skill, not hiring-talent (which covers the hiring process, not onboarding)"
+    },
+    {
+      "query": "Our customer research shows 3 distinct user types but the product team keeps building for a monolithic 'user'. I need to formalize these segments.",
+      "should_trigger": "buyer-persona",
+      "rationale": "User segmentation formalization from research data — persona building"
+    },
+    {
+      "query": "I just joined as the new CTO and I need to quickly understand the political landscape — who are the power brokers, what are the unspoken alliances, and where are the landmines?",
+      "should_trigger": "stakeholder-discovery",
+      "rationale": "Organizational ecosystem mapping for a new leader entering the org"
+    },
+    {
+      "query": "Our engineering team has grown from 5 to 20 in 6 months. The culture that worked when we were small is breaking. We need to redesign how we work.",
+      "should_trigger": "team-builder",
+      "rationale": "Team scaling, culture mechanisms, redesigning collaboration at new scale"
+    }
+  ]
+}

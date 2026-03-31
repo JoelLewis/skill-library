@@ -1,0 +1,82 @@
+{
+  "description": "Qualitative output evals for 6 representative skills (one per family)",
+  "evals": [
+    {
+      "id": 1,
+      "skill": "getting-started",
+      "family": "meta",
+      "prompt": "I just installed this skill library and I have a project where we need to figure out whether to build a mobile app or a progressive web app for our restaurant ordering system. We have 3 months and a team of 4. Where should I start?",
+      "expected_output": "Should route to problem-framing as the first step, establish the workflow chain context, and provide clear next-skill guidance",
+      "assertions": [
+        {"text": "Identifies problem-framing as the recommended starting skill", "type": "routing"},
+        {"text": "References the workflow chain or skill dependencies", "type": "process"},
+        {"text": "Does not attempt to answer the build-vs-buy question directly", "type": "discipline"}
+      ]
+    },
+    {
+      "id": 2,
+      "skill": "problem-framing",
+      "family": "workflow",
+      "prompt": "Our B2B SaaS has been growing but churn spiked to 8% last quarter. The CEO thinks we need a better onboarding flow, the CTO thinks it's a performance issue, and customer success says enterprise clients are leaving because we lack SSO. Frame this problem properly.",
+      "expected_output": "Should decompose the churn problem using human-centered framing, distinguish symptoms from root causes, and produce a validated problem statement",
+      "assertions": [
+        {"text": "Distinguishes between the three stakeholder hypotheses as potential symptoms vs root causes", "type": "analysis"},
+        {"text": "Produces or structures toward a clear problem statement", "type": "deliverable"},
+        {"text": "Identifies what data or validation is needed before jumping to solutions", "type": "discipline"},
+        {"text": "References the Iron Law about approved problem framing before analysis", "type": "process"}
+      ]
+    },
+    {
+      "id": 3,
+      "skill": "decision-frameworks",
+      "family": "executive",
+      "prompt": "We have three acquisition targets on the table: a small AI startup with great tech but no revenue, a mid-size competitor with $5M ARR but declining growth, and a services company with strong customer relationships in our target vertical. Board wants a recommendation by Friday. Help me structure this decision.",
+      "expected_output": "Should build a decision matrix with weighted criteria, run a pre-mortem on each option, and surface the key trade-offs",
+      "assertions": [
+        {"text": "Creates or guides creation of a weighted decision matrix", "type": "framework"},
+        {"text": "Identifies criteria beyond just financial (strategic fit, risk, integration complexity)", "type": "analysis"},
+        {"text": "Runs or suggests a pre-mortem on the recommended option", "type": "process"},
+        {"text": "Makes trade-offs explicit rather than giving a single 'right answer'", "type": "discipline"}
+      ]
+    },
+    {
+      "id": 4,
+      "skill": "fiction-architect",
+      "family": "narrative",
+      "prompt": "I'm writing a novel about a climate scientist who discovers that her research has been manipulated by her own university to secure funding. The first act feels sluggish — she discovers the manipulation on page 80 but there's no tension before that. How do I fix the structure?",
+      "expected_output": "Should diagnose the structural problem using value turns or promise/progress/payoff, suggest where to plant earlier tension and foreshadowing",
+      "assertions": [
+        {"text": "Identifies the late inciting incident as the core structural problem", "type": "diagnosis"},
+        {"text": "Suggests moving the discovery earlier or planting foreshadowing/micro-tensions", "type": "solution"},
+        {"text": "References specific story structure frameworks (McKee, Campbell, or Sanderson)", "type": "grounding"},
+        {"text": "Addresses emotional stakes, not just plot mechanics", "type": "craft"}
+      ]
+    },
+    {
+      "id": 5,
+      "skill": "non-fiction-precision",
+      "family": "rhetorician",
+      "prompt": "Here's my quarterly strategy update for the leadership team:\n\n'Over the past quarter, the team has been working on several initiatives. We launched the new dashboard, which has seen good adoption. We also started the API redesign project which is progressing well. Customer feedback has been mixed on the pricing changes we made in January. Looking ahead, we plan to focus on retention and expanding into new verticals. The competitive landscape is shifting and we need to stay ahead.'\n\nThis needs to be sharper.",
+      "expected_output": "Should restructure using answer-first/Pyramid principle, eliminate vague language, and create clear information hierarchy",
+      "assertions": [
+        {"text": "Restructures to lead with the conclusion or key recommendation", "type": "structure"},
+        {"text": "Replaces vague language ('good adoption', 'progressing well', 'mixed') with specific expectations", "type": "precision"},
+        {"text": "Creates clear grouping/hierarchy (MECE or similar)", "type": "framework"},
+        {"text": "Result is significantly shorter or more information-dense than the original", "type": "concision"}
+      ]
+    },
+    {
+      "id": 6,
+      "skill": "negotiation-tactician",
+      "family": "dealmaker",
+      "prompt": "I'm a startup founder and AWS just offered us $100k in credits but wants us to commit to a 3-year enterprise agreement at $15k/month after the credits run out. Our current spend is $8k/month on a competitor's cloud. I have a meeting with their account exec tomorrow. How should I prepare?",
+      "expected_output": "Should structure preparation using BATNA analysis, calibrated questions, and tactical empathy. Should identify leverage points and potential traps.",
+      "assertions": [
+        {"text": "Identifies the founder's BATNA (staying with current provider at $8k/month)", "type": "framework"},
+        {"text": "Suggests specific calibrated questions to ask in the meeting", "type": "tactics"},
+        {"text": "Warns about the anchor effect of the $100k credits offer", "type": "awareness"},
+        {"text": "Recommends a preparation structure (interests, alternatives, legitimacy criteria)", "type": "process"}
+      ]
+    }
+  ]
+}

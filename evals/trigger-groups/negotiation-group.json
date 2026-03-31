@@ -1,0 +1,106 @@
+{
+  "group": "Negotiation",
+  "skills_under_test": ["negotiation-tactician", "rapport-builder", "influence-architect", "difficult-conversations"],
+  "evals": [
+    {
+      "query": "I'm about to renegotiate our office lease — the landlord wants a 15% increase and I think we have leverage because the building is half empty. How do I prepare?",
+      "should_trigger": "negotiation-tactician",
+      "rationale": "Contract negotiation with clear counterparty, BATNA analysis, preparation framework"
+    },
+    {
+      "query": "I just started at a new company and I'm meeting my cross-functional partners for the first time next week. How do I build trust quickly without coming across as trying too hard?",
+      "should_trigger": "rapport-builder",
+      "rationale": "New relationship initiation, trust-building with new team, belonging cues"
+    },
+    {
+      "query": "The VP of Sales keeps shooting down our product roadmap priorities in the exec meeting. I need to build a coalition to get our items through without a direct confrontation.",
+      "should_trigger": "influence-architect",
+      "rationale": "Organizational politics, coalition building, indirect influence strategy"
+    },
+    {
+      "query": "I need to tell my co-founder that I think we should part ways. We built this together but our visions have diverged and it's affecting the company.",
+      "should_trigger": "difficult-conversations",
+      "rationale": "High-stakes, emotionally charged, potentially confrontational interpersonal situation"
+    },
+    {
+      "query": "We're negotiating a partnership deal with a company 10x our size. They have all the leverage. How do I avoid getting steamrolled while keeping the relationship intact?",
+      "should_trigger": "negotiation-tactician",
+      "rationale": "Formal negotiation, power asymmetry, interest analysis, tactical empathy"
+    },
+    {
+      "query": "I'm presenting to a hostile audience at the board meeting — two board members have been pushing to replace me. How do I read the room and build enough trust to survive this?",
+      "should_trigger": "rapport-builder",
+      "rationale": "Relationship repair, reading dynamics, tactical empathy before conflict escalation"
+    },
+    {
+      "query": "Three department heads need to agree on the budget allocation and none of them trust each other. I need to orchestrate consensus without formal authority.",
+      "should_trigger": "influence-architect",
+      "rationale": "Multi-party influence without formal authority, organizational politics, consensus building"
+    },
+    {
+      "query": "My business partner has been taking money from the company account without telling me. I have the records. How do I confront them?",
+      "should_trigger": "difficult-conversations",
+      "rationale": "High-conflict confrontation with evidence, untrustworthy counterpart"
+    },
+    {
+      "query": "Our vendor contract is up for renewal and I want to use the Ackerman model to negotiate the price down. Current rate is $50k/month, target is $38k.",
+      "should_trigger": "negotiation-tactician",
+      "rationale": "Specific negotiation framework (Ackerman), price negotiation with targets"
+    },
+    {
+      "query": "I'm a new engineering manager and my team seems guarded around me. Nobody pushes back in meetings and I get the feeling they don't trust me yet.",
+      "should_trigger": "rapport-builder",
+      "rationale": "New team entry, trust deficit, building belonging and psychological safety"
+    },
+    {
+      "query": "I need to get the CEO to approve a headcount increase but she's been saying 'no new hires' publicly. I need to figure out who can help me make the case.",
+      "should_trigger": "influence-architect",
+      "rationale": "Navigating org politics, building support for a proposal against stated position"
+    },
+    {
+      "query": "A client is threatening to sue us over a deliverable they say was late, but we have emails showing they kept changing scope. How do I handle the call tomorrow?",
+      "should_trigger": "difficult-conversations",
+      "rationale": "High-stakes confrontation, adversarial counterpart, evidence-based difficult conversation"
+    },
+    {
+      "query": "I need to give my direct report feedback that their code reviews are too harsh and it's demoralizing the junior engineers.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: feedback-coach territory, not negotiation/rapport/influence/difficult-conversations"
+    },
+    {
+      "query": "We need to map out the stakeholders involved in the platform migration — who has veto power and who needs to be consulted.",
+      "should_trigger_not": true,
+      "rationale": "Stakeholder discovery, not interpersonal skills"
+    },
+    {
+      "query": "Help me write a strategy memo that argues for expanding into the healthcare vertical.",
+      "should_trigger_not": true,
+      "rationale": "Strategy writing, not interpersonal"
+    },
+    {
+      "query": "My team can't agree on the technical architecture. The backend and frontend leads have completely different visions.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: could be difficult-conversations but this is really a decision-frameworks or team-builder issue"
+    },
+    {
+      "query": "I want to negotiate my salary at a new job offer. They offered $180k but I think I'm worth $210k based on market data.",
+      "should_trigger": "negotiation-tactician",
+      "rationale": "Salary negotiation, specific numbers, preparation for a formal negotiation"
+    },
+    {
+      "query": "I'm joining the client's team as an embedded consultant and I need to build credibility fast without stepping on toes.",
+      "should_trigger": "rapport-builder",
+      "rationale": "New relationship initiation in a sensitive context, belonging cues, trust building"
+    },
+    {
+      "query": "The CFO controls the budget but the CTO controls technical direction. I need both of them on my side for this initiative to succeed. How do I play this?",
+      "should_trigger": "influence-architect",
+      "rationale": "Multi-stakeholder influence, organizational politics, building coalitions"
+    },
+    {
+      "query": "I discovered my manager has been taking credit for my work in leadership meetings. I have Slack messages that prove it. I need to address this without blowing up the relationship.",
+      "should_trigger": "difficult-conversations",
+      "rationale": "Emotionally charged confrontation with evidence, high-stakes interpersonal situation"
+    }
+  ]
+}

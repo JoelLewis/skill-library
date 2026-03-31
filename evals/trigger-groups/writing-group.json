@@ -1,0 +1,106 @@
+{
+  "group": "Writing",
+  "skills_under_test": ["non-fiction-precision", "copy-editor", "memo-stress-tester"],
+  "evals": [
+    {
+      "query": "I wrote a strategy memo for the leadership team but my manager says it 'buries the lead'. The recommendations are on page 3 after a long background section. Can you restructure it?",
+      "should_trigger": "non-fiction-precision",
+      "rationale": "Structural problem (buried conclusion), needs Pyramid restructuring, not line-level editing"
+    },
+    {
+      "query": "Can you clean up this blog post draft? It's too wordy — lots of passive voice and unnecessary adverbs. The ideas are fine, the writing just needs tightening.",
+      "should_trigger": "copy-editor",
+      "rationale": "Line-level prose editing: passive voice, adverbs, concision. Structure is fine."
+    },
+    {
+      "query": "This proposal is going to the CFO next week and I need someone to poke holes in it. Are the claims supported? Is the logic sound?",
+      "should_trigger": "memo-stress-tester",
+      "rationale": "Stress-testing claims and logic for executive review, not restructuring or line editing"
+    },
+    {
+      "query": "My quarterly update email rambles — it's supposed to cover 4 initiatives but there's no clear hierarchy. The reader won't know what matters most.",
+      "should_trigger": "non-fiction-precision",
+      "rationale": "Information hierarchy and MECE grouping problem, structural reorganization needed"
+    },
+    {
+      "query": "I have this 6-page Amazon-style memo that needs to be reviewed before the leadership offsite. Make sure the narrative holds together.",
+      "should_trigger": "memo-stress-tester",
+      "rationale": "Amazon memo format, executive review, narrative stress-testing"
+    },
+    {
+      "query": "Just tighten this up for me — make it better, cleaner, more professional. Here's the draft.",
+      "should_trigger": "copy-editor",
+      "rationale": "Generic 'make it better' request maps to copy editing as stated in the description"
+    },
+    {
+      "query": "This internal report has good data but the argument doesn't flow — the sections feel disconnected and there's no clear 'so what' at the end.",
+      "should_trigger": "non-fiction-precision",
+      "rationale": "Argument structure and flow, missing conclusion synthesis — Pyramid/MECE territory"
+    },
+    {
+      "query": "The board deck narrative section claims we'll hit $10M ARR but I don't see how the assumptions connect. Can you check the logic chain?",
+      "should_trigger": "memo-stress-tester",
+      "rationale": "Logical gap analysis in claims going to board, stress-testing assertions"
+    },
+    {
+      "query": "I need to rewrite this technical doc so it follows answer-first structure — our eng team puts methodology before results and stakeholders stop reading.",
+      "should_trigger": "non-fiction-precision",
+      "rationale": "Answer-first restructuring, Minto Pyramid application"
+    },
+    {
+      "query": "Make this paragraph less clunky. It has too many 'that' clauses and the sentences are all the same length.",
+      "should_trigger": "copy-editor",
+      "rationale": "Sentence-level prose mechanics, not structure or logic"
+    },
+    {
+      "query": "I want to write an ad campaign for our new product launch.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: advertising copy is scientific-advertising, not non-fiction/editing/stress-testing"
+    },
+    {
+      "query": "Help me outline a short story about a detective who discovers something unsettling about their partner.",
+      "should_trigger_not": true,
+      "rationale": "Fiction writing, not non-fiction precision or editing"
+    },
+    {
+      "query": "I need to prepare a pitch deck for investors — we're raising a Series A.",
+      "should_trigger_not": true,
+      "rationale": "Pitch deck creation, not document editing or stress-testing"
+    },
+    {
+      "query": "How should I structure the feedback I'm giving to my direct report about their communication skills?",
+      "should_trigger_not": true,
+      "rationale": "Feedback coaching, not writing/editing"
+    },
+    {
+      "query": "This writing is clear but it feels emotionally flat — it reads like a textbook. How do I make it resonate more?",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: emotional resonance is resonance-engine's domain, not precision/editing/stress-testing"
+    },
+    {
+      "query": "Review this proposal document — I need to know if the business case math adds up and if the ROI projections are realistic.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: financial validation is business-case or assumption-audit, not writing quality"
+    },
+    {
+      "query": "This competitive analysis section of our memo seems biased — it dismisses our main competitor without evidence. Can you stress-test those claims?",
+      "should_trigger": "memo-stress-tester",
+      "rationale": "Stress-testing specific claims in a document for logical gaps and unproven assertions"
+    },
+    {
+      "query": "I wrote a one-page executive summary but it still feels bloated. Every sentence should earn its place — help me cut it to the bone.",
+      "should_trigger": "copy-editor",
+      "rationale": "Concision and cutting, line-level editing task even though the context is executive"
+    },
+    {
+      "query": "My team's engineering RFC has solid technical content but the argument for 'why this approach' is scattered across 3 sections with no governing structure.",
+      "should_trigger": "non-fiction-precision",
+      "rationale": "Structural reorganization, argument governing structure, MECE grouping"
+    },
+    {
+      "query": "This strategy doc is heading to the exec team. Check it end-to-end: is the logic tight? Are assertions backed? Any gaps in the completed staff work?",
+      "should_trigger": "memo-stress-tester",
+      "rationale": "Completed Staff Work doctrine, end-to-end logical stress test for executive audience"
+    }
+  ]
+}

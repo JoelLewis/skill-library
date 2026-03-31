@@ -1,0 +1,106 @@
+{
+  "group": "Strategy",
+  "skills_under_test": ["strategy-clarity", "competitive-analysis", "market-context"],
+  "evals": [
+    {
+      "query": "We're a Series B SaaS company and our board wants to know if we should double down on mid-market or move upmarket to enterprise. Our CAC is climbing and the mid-market feels crowded. Can you help us think through this?",
+      "should_trigger": "strategy-clarity",
+      "rationale": "Strategic where-to-play decision about market positioning — not a competitor teardown or macro timing question"
+    },
+    {
+      "query": "Salesforce just launched a feature that directly competes with our core workflow automation. I need to understand how defensible their position really is and where they might be vulnerable.",
+      "should_trigger": "competitive-analysis",
+      "rationale": "Named competitor, requesting activity system teardown and vulnerability profile"
+    },
+    {
+      "query": "We're thinking about launching a developer tools product but I'm not sure if the timing is right — the market seems to be consolidating around a few big players and AI is reshaping how developers work. Is there still room?",
+      "should_trigger": "market-context",
+      "rationale": "Macro market timing, structural forces (consolidation, AI disruption), not a specific competitor or internal strategy choice"
+    },
+    {
+      "query": "Our CEO keeps saying we have no competitors but we're losing deals to Notion and Coda every quarter. I need a proper analysis of what they're actually doing differently.",
+      "should_trigger": "competitive-analysis",
+      "rationale": "Named rivals (Notion, Coda), requesting comparative analysis"
+    },
+    {
+      "query": "The B2B payments space is seeing massive regulatory changes in the EU and we need to understand if this creates an opening for our cross-border solution before we commit $2M to the build.",
+      "should_trigger": "market-context",
+      "rationale": "Regulatory structural forces, market timing validation before resource commitment"
+    },
+    {
+      "query": "I'm the new VP of Product and the strategy feels like a list of priorities rather than actual choices. Nobody can tell me what we're NOT doing. Help me sharpen this.",
+      "should_trigger": "strategy-clarity",
+      "rationale": "Organizational strategy clarity, choice cascade, defining where NOT to play"
+    },
+    {
+      "query": "We're seeing aggregation effects in our vertical — the top 3 players are capturing demand and everyone else is commoditized. How should we think about our positioning?",
+      "should_trigger": "market-context",
+      "rationale": "Aggregation theory, macro structural forces, not a single competitor teardown"
+    },
+    {
+      "query": "Help me figure out if HubSpot's moat is actually as strong as their market cap implies — I think their ecosystem lock-in might be weaker than it looks.",
+      "should_trigger": "competitive-analysis",
+      "rationale": "Named competitor (HubSpot), moat audit, specific vulnerability hypothesis"
+    },
+    {
+      "query": "Our exec team can't agree on whether we're a platform or a product company. The CTO wants APIs, the CRO wants enterprise features. How do we resolve this?",
+      "should_trigger": "strategy-clarity",
+      "rationale": "Internal strategic alignment, fundamental identity question, not a market or competitor issue"
+    },
+    {
+      "query": "I need to write a competitive landscape section for our board deck covering the top 5 players in our space.",
+      "should_trigger": "competitive-analysis",
+      "rationale": "Multiple named competitors, formal competitive landscape analysis"
+    },
+    {
+      "query": "Can you review this strategy doc and tell me if the financial projections hold up?",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: financial review is business-case or assumption-audit territory, not strategy-clarity"
+    },
+    {
+      "query": "We need to build buyer personas for our enterprise and SMB segments.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: persona building, not strategy/competitive/market"
+    },
+    {
+      "query": "I want to write a PRD for the new dashboard feature we discussed.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: product requirements document, not strategy"
+    },
+    {
+      "query": "The team is stuck on whether to use React or Svelte for the frontend rewrite.",
+      "should_trigger_not": true,
+      "rationale": "Technical decision, not strategic positioning or market analysis"
+    },
+    {
+      "query": "Help me prepare talking points for my 1:1 with the CEO about last quarter's churn numbers.",
+      "should_trigger_not": true,
+      "rationale": "Executive communication, not strategy analysis"
+    },
+    {
+      "query": "Our investor wants a pitch deck for the next funding round.",
+      "should_trigger_not": true,
+      "rationale": "Near-miss: pitch-deck skill, not strategy/competitive/market"
+    },
+    {
+      "query": "I think there's a Wardley mapping analysis we should do on our infrastructure stack — some components are clearly commodity but we're still building custom.",
+      "should_trigger": "strategy-clarity",
+      "rationale": "Wardley mapping is explicitly part of strategy-clarity, even though it overlaps with market context"
+    },
+    {
+      "query": "How is the shift to usage-based pricing across SaaS affecting companies that still charge per-seat? We're considering the switch.",
+      "should_trigger": "market-context",
+      "rationale": "Macro structural shift in pricing models, market timing validation"
+    },
+    {
+      "query": "Stripe is expanding into our lending vertical. We need to understand their activity system — how their payments infrastructure gives them unfair advantages in lending.",
+      "should_trigger": "competitive-analysis",
+      "rationale": "Named competitor (Stripe), activity system analysis, cross-vertical moat assessment"
+    },
+    {
+      "query": "Our board asked us to define our 7 Powers — where is our sustainable competitive advantage?",
+      "should_trigger": "strategy-clarity",
+      "rationale": "7 Powers analysis for own company is strategy-clarity; for competitors it would be competitive-analysis"
+    }
+  ]
+}
